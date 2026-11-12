@@ -1,0 +1,43 @@
+{
+ "falcon_2715": [
+  "RegexConverter",
+  "convert"
+ ],
+ "litestar_4279": [
+  "for_pydantic_model"
+ ],
+ "loguru_1303": [
+  "AsyncGenCatchWrapper",
+  "asend",
+  "athrow"
+ ],
+ "marshmallow_2925": [
+  "Mapping",
+  "mapping_type"
+ ],
+ "packaging_1150": [
+  "Tag",
+  "parse_tag"
+ ],
+ "packaging_888": [
+  "evaluate"
+ ],
+ "pygments_3078": [
+  "html_escape"
+ ],
+ "pytest_12947": [
+  "do_continue"
+ ],
+ "pytest_13525": [
+  "PytesterHelperPlugin"
+ ],
+ "scrapy_6804": [
+  "parse_with_rules"
+ ],
+ "scrapy_7179": [
+  "open_spider"
+ ],
+ "werkzeug_3038": [
+  "DuplicateRuleError"
+ ]
+}

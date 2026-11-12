@@ -1,0 +1,51 @@
+{
+ "task_runs": 594,
+ "funnel": {
+  "gold file seen": [
+   369,
+   62.1
+  ],
+  "edit attempted on a gold file": [
+   357,
+   60.1
+  ],
+  "gold-file edit applied": [
+   310,
+   52.2
+  ],
+  "resolved": [
+   75,
+   12.6
+  ]
+ },
+ "single-file gold": {
+  "task_runs": 405,
+  "seen_%": 55.8,
+  "attempted_%": 52.3,
+  "applied_%": 45.9,
+  "resolved_%": 18.0
+ },
+ "multi-file gold": {
+  "task_runs": 189,
+  "seen_%": 75.7,
+  "attempted_%": 76.7,
+  "applied_%": 65.6,
+  "resolved_%": 1.1
+ },
+ "conditional_%": {
+  "attempt | seen": 96.7,
+  "applied | attempted": 86.8,
+  "resolved | applied": 21.9,
+  "resolved | seen but no applied gold edit": 0.0
+ },
+ "timing (resolved)": {
+  "median call of first gold sight": 2.0,
+  "median call of first edit attempt": 5,
+  "median calls": 7
+ },
+ "timing (not resolved)": {
+  "median call of first gold sight": 3,
+  "median call of first edit attempt": 5,
+  "median calls": 9
+ }
+}

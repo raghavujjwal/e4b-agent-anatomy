@@ -1,0 +1,8 @@
+[
+ {"reasoning": "I should locate foo first.", "calls": [{"name": "run_command", "args": {"command": "grep -rn \"def foo\" ."}}]},
+ {"reasoning": "Open the file around the match.", "calls": [{"name": "read_file", "args": {"filepath": "pkg/mod.py", "start_line": 1, "end_line": 6}}]},
+ {"calls": [{"name": "edit_file", "args": {"filepath": "pkg/mod.py", "old_string": "def foo():\n    return 1", "new_string": "def foo():\n    return 2"}}]},
+ {"calls": [{"name": "run_command", "args": {"command": "false"}}]},
+ {"calls": [{"name": "submit_patch", "args": {}}]},
+ {"content": "Patch submitted."}
+]

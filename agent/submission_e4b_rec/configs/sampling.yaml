@@ -1,0 +1,10 @@
+# Sampling recommended by the model's own generation_config.json (google/gemma-4-E4B-it): temperature 1.0, top_p 0.95, top_k 64.
+# The only difference from ../../submission_e4b, which keeps the 31B campaign's temperature 0.2 (top_k was not sent, so the server's
+# default applied). thinking_budget 4096 and max_output_tokens 8192 are unchanged.
+temperature: 1.0
+top_p: 0.95
+top_k: 64
+max_output_tokens: 8192
+thinking_config:
+  thinking_budget: 4096
+  include_thoughts: true

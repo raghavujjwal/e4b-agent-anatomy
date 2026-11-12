@@ -1,0 +1,10314 @@
+{
+ "summary": {
+  "not_found_edits": 463,
+  "file_read": 421,
+  "ratio 0.95-1.01": {
+   "n": 163,
+   "kinds": {
+    "mixed": 38,
+    "extra_chars": 78,
+    "identical": 27,
+    "substitution": 6,
+    "dropped_chars": 14
+   }
+  },
+  "ratio 0.9-0.95": {
+   "n": 36,
+   "kinds": {
+    "substitution": 3,
+    "extra_chars": 15,
+    "mixed": 18
+   }
+  },
+  "ratio 0.8-0.9": {
+   "n": 42,
+   "kinds": {
+    "extra_chars": 13,
+    "mixed": 24,
+    "dropped_chars": 5
+   }
+  },
+  "ratio 0.0-0.8": {
+   "n": 180,
+   "kinds": {
+    "mixed": 136,
+    "none": 25,
+    "extra_chars": 16,
+    "substitution": 3
+   }
+  },
+  "near_miss_total_ge_0.9": 199,
+  "dropped_final_s_ge_0.9": 0,
+  "dropped_final_letter_incl_s_ge_0.9": 0
+ },
+ "rows": [
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 37,
+   "ratio": 0.994,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "import re\n",
+     ""
+    ],
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 37,
+   "ratio": 0.994,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "import re\n",
+     ""
+    ],
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 37,
+   "ratio": 0.993,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "import re\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "^"
+    ],
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 37,
+   "ratio": 0.993,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "import re\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "^"
+    ],
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 15,
+   "ratio": 0.984,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "import re\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "^"
+    ],
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 37,
+   "ratio": 0.993,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "import re\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "^"
+    ],
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 8,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 8,
+   "ratio": 0.996,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 8,
+   "ratio": 0.996,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.829,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\n    )",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.829,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\n    )",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.829,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\n    )",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.727,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "insert",
+     "",
+     "python"
+    ],
+    [
+     "delete",
+     "),\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "from"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.829,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\n    )",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.727,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "insert",
+     "",
+     "python"
+    ],
+    [
+     "delete",
+     "),\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "from"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14986",
+   "file": "fastapi/openapi/docs.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.421,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "no_proxy_ho",
+     "    te"
+    ],
+    [
+     "delete",
+     "s",
+     ""
+    ],
+    [
+     "replace",
+     "(ho",
+     "te"
+    ],
+    [
+     "delete",
+     " for host in no_proxy",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.421,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "no_proxy_ho",
+     "    te"
+    ],
+    [
+     "delete",
+     "s",
+     ""
+    ],
+    [
+     "replace",
+     "(ho",
+     "te"
+    ],
+    [
+     "delete",
+     " for host in no_proxy",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.345,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "#",
+     ""
+    ],
+    [
+     "delete",
+     "First",
+     ""
+    ],
+    [
+     "replace",
+     "c",
+     "  C"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.434,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "i"
+    ],
+    [
+     "delete",
+     "or",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "get"
+    ],
+    [
+     "replace",
+     "y",
+     "ies"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.345,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "#",
+     ""
+    ],
+    [
+     "delete",
+     "First",
+     ""
+    ],
+    [
+     "replace",
+     "c",
+     "  C"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.345,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "#",
+     ""
+    ],
+    [
+     "delete",
+     "First",
+     ""
+    ],
+    [
+     "replace",
+     "c",
+     "  C"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.559,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    "
+    ],
+    [
+     "replace",
+     "_n",
+     "t"
+    ],
+    [
+     "insert",
+     "",
+     "s"
+    ],
+    [
+     "replace",
+     "r",
+     " == \"<lo"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.61,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "_n",
+     "t"
+    ],
+    [
+     "insert",
+     "",
+     "s"
+    ],
+    [
+     "replace",
+     "r",
+     " == \"<lo"
+    ],
+    [
+     "insert",
+     "",
+     "al>\""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.559,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    "
+    ],
+    [
+     "replace",
+     "_n",
+     "t"
+    ],
+    [
+     "insert",
+     "",
+     "s"
+    ],
+    [
+     "replace",
+     "r",
+     " == \"<lo"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.61,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "_n",
+     "t"
+    ],
+    [
+     "insert",
+     "",
+     "s"
+    ],
+    [
+     "replace",
+     "r",
+     " == \"<lo"
+    ],
+    [
+     "insert",
+     "",
+     "al>\""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.61,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "_n",
+     "t"
+    ],
+    [
+     "insert",
+     "",
+     "s"
+    ],
+    [
+     "replace",
+     "r",
+     " == \"<lo"
+    ],
+    [
+     "insert",
+     "",
+     "al>\""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.61,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "_n",
+     "t"
+    ],
+    [
+     "insert",
+     "",
+     "s"
+    ],
+    [
+     "replace",
+     "r",
+     " == \"<lo"
+    ],
+    [
+     "insert",
+     "",
+     "al>\""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.47,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "ap"
+    ],
+    [
+     "delete",
+     "nclude",
+     ""
+    ],
+    [
+     "delete",
+     "r",
+     ""
+    ],
+    [
+     "replace",
+     "rou",
+     "pa"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14794",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.352,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    Un"
+    ],
+    [
+     "replace",
+     " a",
+     "i"
+    ],
+    [
+     "delete",
+     "alyz",
+     ""
+    ],
+    [
+     "replace",
+     "_param(",
+     "d,"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14794",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.352,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    Un"
+    ],
+    [
+     "replace",
+     " a",
+     "i"
+    ],
+    [
+     "delete",
+     "alyz",
+     ""
+    ],
+    [
+     "replace",
+     "_param(",
+     "d,"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_12942",
+   "file": "fastapi/params.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.851,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "#",
+     "from"
+    ],
+    [
+     "insert",
+     "",
+     "pydantic"
+    ],
+    [
+     "replace",
+     "..",
+     "fields"
+    ],
+    [
+     "replace",
+     "(",
+     "impo"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 16,
+   "ratio": 0.765,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "insert",
+     "",
+     "_param"
+    ],
+    [
+     "replace",
+     "\\",
+     "\n    param_"
+    ],
+    [
+     "insert",
+     "",
+     "ame: str,\n"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.214,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def get_sub_dependant(\n    *,\\n    depen",
+     ""
+    ],
+    [
+     "delete",
+     "result = depends.dependency()\\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "# pa"
+    ],
+    [
+     "insert",
+     "",
+     "s"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.695,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "    ",
+     "asse"
+    ],
+    [
+     "delete",
+     "esul",
+     ""
+    ],
+    [
+     "delete",
+     " =",
+     ""
+    ],
+    [
+     "delete",
+     "()",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.928,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     ")",
+     "    embed_body_fields=embed_body_fields,"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.545,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        "
+    ],
+    [
+     "insert",
+     "",
+     "with AsyncExitStack() as async_exit_stac"
+    ],
+    [
+     "insert",
+     "",
+     "_r"
+    ],
+    [
+     "replace",
+     "f",
+     "sult = await"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.59,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "            solved_result = "
+    ],
+    [
+     "replace",
+     "sync def",
+     "wait"
+    ],
+    [
+     "insert",
+     "",
+     "            "
+    ],
+    [
+     "replace",
+     ": R",
+     "=r"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14487",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.984,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14487",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.984,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14487",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.98,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14487",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.984,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14306",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.984,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14306",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.984,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14306",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.984,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14306",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 10,
+   "ratio": 0.992,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.946,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\n            return True",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 20,
+   "ratio": 0.964,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    @cached_property\n",
+     ""
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ],
+    [
+     "delete",
+     "\\n            return True\n        return",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 20,
+   "ratio": 0.964,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    @cached_property\n",
+     ""
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ],
+    [
+     "delete",
+     "\\n            return True\n        return",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.92,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\n            return True",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.919,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\n            return True",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14459",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.362,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "This"
+    ],
+    [
+     "insert",
+     "",
+     "is"
+    ],
+    [
+     "insert",
+     "",
+     "the"
+    ],
+    [
+     "replace",
+     " ",
+     "ba"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14459",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.337,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "s",
+     "    grant_typ"
+    ],
+    [
+     "replace",
+     "lf.mod",
+     "=grant_typ"
+    ],
+    [
+     "delete",
+     "l = OAuth2Model(flows=cast(OAuthFlowMode",
+     ""
+    ],
+    [
+     "delete",
+     " flows), description=description)",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14459",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.337,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "s",
+     "    grant_typ"
+    ],
+    [
+     "replace",
+     "lf.mod",
+     "=grant_typ"
+    ],
+    [
+     "delete",
+     "l = OAuth2Model(flows=cast(OAuthFlowMode",
+     ""
+    ],
+    [
+     "delete",
+     " flows), description=description)",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14459",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.362,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "This"
+    ],
+    [
+     "insert",
+     "",
+     "is"
+    ],
+    [
+     "insert",
+     "",
+     "the"
+    ],
+    [
+     "replace",
+     " ",
+     "ba"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_9753",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 23,
+   "ratio": 0.874,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "Anno",
+     "cas"
+    ],
+    [
+     "delete",
+     "ated,\n    Literal,\n    get_args,\n    get",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n\nimport anyio\nfrom fastapi import param"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_5077",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.685,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\n    typed_params = [\\n        inspect.",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_9555",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.776,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "call = sub_d"
+    ],
+    [
+     "insert",
+     "",
+     "pendant.ca"
+    ],
+    [
+     "replace",
+     "se:",
+     "l"
+    ],
+    [
+     "delete",
+     "    ",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_9555",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.776,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "call = sub_d"
+    ],
+    [
+     "insert",
+     "",
+     "pendant.ca"
+    ],
+    [
+     "replace",
+     "se:",
+     "l"
+    ],
+    [
+     "delete",
+     "    ",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_9555",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.776,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "call = sub_d"
+    ],
+    [
+     "insert",
+     "",
+     "pendant.ca"
+    ],
+    [
+     "replace",
+     "se:",
+     "l"
+    ],
+    [
+     "delete",
+     "    ",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_9555",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.776,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "call = sub_d"
+    ],
+    [
+     "insert",
+     "",
+     "pendant.ca"
+    ],
+    [
+     "replace",
+     "se:",
+     "l"
+    ],
+    [
+     "delete",
+     "    ",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14360",
+   "file": "fastapi/params.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.495,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "\"\"\"",
+     ""
+    ],
+    [
+     "replace",
+     "repr",
+     "init"
+    ],
+    [
+     "delete",
+     "self) -> str:",
+     ""
+    ],
+    [
+     "delete",
+     "return f\\\"{",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14360",
+   "file": "fastapi/params.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.416,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def",
+     ""
+    ],
+    [
+     "replace",
+     "__repr__(",
+     "   "
+    ],
+    [
+     "replace",
+     ")",
+     ".example"
+    ],
+    [
+     "replace",
+     "->",
+     "="
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.68,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 8,
+   "ratio": 0.884,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 8,
+   "ratio": 0.884,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.639,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ],
+    [
+     "delete",
+     "        ] = None,",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.639,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ],
+    [
+     "delete",
+     "        ] = None,",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "base1",
+   "task": "httpx_3672",
+   "file": "src/ahttpx/_parsers.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.98,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     " -> None",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "httpx_3672",
+   "file": "src/ahttpx/_parsers.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.859,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "        # Send initial request line, eg.",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "httpx_3672",
+   "file": "src/ahttpx/_parsers.py",
+   "read": true,
+   "old_lines": 8,
+   "ratio": 0.993,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13537",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.404,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "Mod"
+    ],
+    [
+     "replace",
+     "s",
+     "Fi"
+    ],
+    [
+     "replace",
+     ":",
+     "ld,"
+    ],
+    [
+     "replace",
+     "    v",
+     "RequiredP"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13537",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.404,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "Mod"
+    ],
+    [
+     "replace",
+     "s",
+     "Fi"
+    ],
+    [
+     "replace",
+     ":",
+     "ld,"
+    ],
+    [
+     "replace",
+     "    v",
+     "RequiredP"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13537",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.404,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "Mod"
+    ],
+    [
+     "replace",
+     "s",
+     "Fi"
+    ],
+    [
+     "replace",
+     ":",
+     "ld,"
+    ],
+    [
+     "replace",
+     "    v",
+     "RequiredP"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/api_key.py",
+   "read": true,
+   "old_lines": 28,
+   "ratio": 0.652,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    ```\n    \"\"\"\n\n"
+    ],
+    [
+     "replace",
+     "\n",
+     "\"Query"
+    ],
+    [
+     "replace",
+     "               \"Cooki",
+     "param"
+    ],
+    [
+     "insert",
+     "",
+     "ter"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.539,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    def __init__(\\n        self,\\n      ",
+     ""
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ],
+    [
+     "delete",
+     "\\n        self.auto_error = auto_error",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.652,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    def __init__(\n        self,\n        ",
+     ""
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.593,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "                raise HTTPException(\\n",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\n                )\\n            else:\\n",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.841,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "                    "
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/api_key.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.23,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "This "
+    ],
+    [
+     "delete",
+     " __",
+     ""
+    ],
+    [
+     "replace",
+     "i",
+     "es "
+    ],
+    [
+     "replace",
+     "__(\n        s",
+     "h"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_6644",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.695,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "(\n    "
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "replace",
+     "Mu",
+     "   bases"
+    ],
+    [
+     "replace",
+     "ableMapp",
+     "r"
+    ]
+   ]
+  },
+  {
+   "run": "base1",
+   "task": "requests_6644",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.625,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     "Mapping, MutableMapping",
+     "("
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 37,
+   "ratio": 0.994,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "import re\n",
+     ""
+    ],
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 37,
+   "ratio": 0.993,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "import re\n",
+     ""
+    ],
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 37,
+   "ratio": 0.993,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "import re\n",
+     ""
+    ],
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 39,
+   "ratio": 0.993,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\n    main()",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 37,
+   "ratio": 0.993,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "import re\n",
+     ""
+    ],
+    [
+     "delete",
+     "?",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.98,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14962",
+   "file": "fastapi/encoders.py",
+   "read": true,
+   "old_lines": 17,
+   "ratio": 0.66,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def jsonable_encoder(\n    obj: Annotated",
+     ""
+    ],
+    [
+     "delete",
+     "Any,\n        Doc(\"The input object to co",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n            "
+    ],
+    [
+     "insert",
+     "",
+     "\"\"\n            "
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14962",
+   "file": "fastapi/encoders.py",
+   "read": true,
+   "old_lines": 17,
+   "ratio": 0.66,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def jsonable_encoder(\n    obj: Annotated",
+     ""
+    ],
+    [
+     "delete",
+     "Any,\n        Doc(\"The input object to co",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n            "
+    ],
+    [
+     "insert",
+     "",
+     "\"\"\n            "
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14962",
+   "file": "fastapi/encoders.py",
+   "read": true,
+   "old_lines": 17,
+   "ratio": 0.66,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def jsonable_encoder(\n    obj: Annotated",
+     ""
+    ],
+    [
+     "delete",
+     "Any,\n        Doc(\"The input object to co",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n            "
+    ],
+    [
+     "insert",
+     "",
+     "\"\"\n            "
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14962",
+   "file": "fastapi/encoders.py",
+   "read": true,
+   "old_lines": 17,
+   "ratio": 0.66,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def jsonable_encoder(\n    obj: Annotated",
+     ""
+    ],
+    [
+     "delete",
+     "Any,\n        Doc(\"The input object to co",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n            "
+    ],
+    [
+     "insert",
+     "",
+     "\"\"\n            "
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15023",
+   "file": "docs/en/docs/advanced/stream-data.md",
+   "read": false,
+   "old_lines": 1
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14964",
+   "file": "fastapi/responses.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.991,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     ".ti",
+     "angolo"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14964",
+   "file": "fastapi/responses.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.991,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     ".ti",
+     "angolo"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14964",
+   "file": "fastapi/responses.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.982,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     ".ti",
+     "angolo"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14964",
+   "file": "fastapi/responses.py",
+   "read": true,
+   "old_lines": 13,
+   "ratio": 0.992,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     ".ti",
+     "angolo"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14978",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.364,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "self.middleware",
+     "]"
+    ],
+    [
+     "delete",
+     " middleware if middleware is not",
+     ""
+    ],
+    [
+     "replace",
+     " else []",
+     ","
+    ],
+    [
+     "replace",
+     "if St",
+     "desc"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14978",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 24,
+   "ratio": 0.365,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "self.middleware = middleware if middlewa",
+     ""
+    ],
+    [
+     "replace",
+     "if",
+     "Read"
+    ],
+    [
+     "replace",
+     "StrictJSONC",
+     "m"
+    ],
+    [
+     "delete",
+     "ntentMiddlewa",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14978",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 24,
+   "ratio": 0.365,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "self.middleware = middleware if middlewa",
+     ""
+    ],
+    [
+     "replace",
+     "if",
+     "Read"
+    ],
+    [
+     "replace",
+     "StrictJSONC",
+     "m"
+    ],
+    [
+     "delete",
+     "ntentMiddlewa",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14978",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.248,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "im",
+     "                the O"
+    ],
+    [
+     "replace",
+     "ort",
+     "enAPI"
+    ],
+    [
+     "delete",
+     "j",
+     ""
+    ],
+    [
+     "replace",
+     "on\nfrom coll",
+     "p"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14986",
+   "file": "fastapi/openapi/docs.py",
+   "read": false,
+   "old_lines": 150
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14986",
+   "file": "fastapi/openapi/docs.py",
+   "read": false,
+   "old_lines": 149
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14986",
+   "file": "fastapi/openapi/docs.py",
+   "read": false,
+   "old_lines": 17
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14986",
+   "file": "fastapi/openapi/docs.py",
+   "read": false,
+   "old_lines": 149
+  },
+  {
+   "run": "base2",
+   "task": "requests_7427",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.846,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "el"
+    ],
+    [
+     "replace",
+     "h",
+     "pr"
+    ],
+    [
+     "replace",
+     "st",
+     "xy_ip"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 12,
+   "ratio": 0.997,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "."
+    ],
+    [
+     "delete",
+     "\"\"\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 12,
+   "ratio": 0.997,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "."
+    ],
+    [
+     "delete",
+     "\"\"\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.957,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    def request_url(self, request, proxi",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     ".\n"
+    ],
+    [
+     "delete",
+     "\"\"\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 12,
+   "ratio": 0.997,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "."
+    ],
+    [
+     "delete",
+     "\"\"\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 12,
+   "ratio": 0.997,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "."
+    ],
+    [
+     "delete",
+     "\"\"\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13920",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 16,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13920",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 16,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14873",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14873",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.279,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "        ] = None,\\n    ) = None,\\n      ",
+     ""
+    ],
+    [
+     "delete",
+     "prefix=prefix,\\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "[FastAPI"
+    ],
+    [
+     "insert",
+     "",
+     "docs"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14873",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.279,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "        ] = None,\\n    ) = None,\\n      ",
+     ""
+    ],
+    [
+     "delete",
+     "prefix=prefix,\\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "[FastAPI"
+    ],
+    [
+     "insert",
+     "",
+     "docs"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14873",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.279,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "        ] = None,\\n    ) = None,\\n      ",
+     ""
+    ],
+    [
+     "delete",
+     "prefix=prefix,\\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "[FastAPI"
+    ],
+    [
+     "insert",
+     "",
+     "docs"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_12942",
+   "file": "fastapi/params.py",
+   "read": true,
+   "old_lines": 55,
+   "ratio": 0.937,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "        if example is not _Unset:\n      ",
+     ""
+    ],
+    [
+     "delete",
+     " ",
+     ""
+    ],
+    [
+     "delete",
+     " ",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n        if PYDANTIC_VERSION_MINOR_TUPLE"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14099",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.385,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "de",
+     "    i"
+    ],
+    [
+     "replace",
+     "get_reque",
+     "isin"
+    ],
+    [
+     "delete",
+     "_h",
+     ""
+    ],
+    [
+     "replace",
+     "dl",
+     "c"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14487",
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "read": true,
+   "old_lines": 15,
+   "ratio": 0.98,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "```JSON\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "r",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14487",
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.977,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "r",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14487",
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "read": true,
+   "old_lines": 15,
+   "ratio": 0.98,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "```JSON\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "r",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14487",
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "read": true,
+   "old_lines": 17,
+   "ratio": 0.948,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "\\u00e4\\u00df",
+     "\u00e4\u00df"
+    ],
+    [
+     "delete",
+     "einer Textversion mit:",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14487",
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.977,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "r",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14448",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.773,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "    f: Callable[[Request], Awaitable[Res",
+     ""
+    ],
+    [
+     "delete",
+     "\\n    )",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14448",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.773,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "    f: Callable[[Request], Awaitable[Res",
+     ""
+    ],
+    [
+     "delete",
+     "\\n    )",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14430",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 14,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14262",
+   "file": "fastapi/param_functions.py",
+   "read": false,
+   "old_lines": 1
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14262",
+   "file": "fastapi/param_functions.py",
+   "read": false,
+   "old_lines": 1
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14262",
+   "file": "fastapi/param_functions.py",
+   "read": false,
+   "old_lines": 1
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "file": "fastapi/dependencies/utils.py",
+   "read": false,
+   "old_lines": 3
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "file": "fastapi/dependencies/utils.py",
+   "read": false,
+   "old_lines": 5
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "file": "fastapi/dependencies/utils.py",
+   "read": false,
+   "old_lines": 3
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "file": "fastapi/dependencies/utils.py",
+   "read": false,
+   "old_lines": 3
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "file": "fastapi/dependencies/utils.py",
+   "read": false,
+   "old_lines": 5
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14266",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.43,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "s",
+     "f de"
+    ],
+    [
+     "insert",
+     "",
+     "o"
+    ],
+    [
+     "replace",
+     "ip",
+     "a"
+    ],
+    [
+     "delete",
+     "i",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14266",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.43,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "s",
+     "f de"
+    ],
+    [
+     "insert",
+     "",
+     "o"
+    ],
+    [
+     "replace",
+     "ip",
+     "a"
+    ],
+    [
+     "delete",
+     "i",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.845,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.845,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.845,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.845,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15800",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 70,
+   "ratio": 0.748,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "                A list of routes to serv"
+    ],
+    [
+     "insert",
+     "",
+     ",\n            deprecated(\n              "
+    ],
+    [
+     "replace",
+     "'''",
+     "\"\"\""
+    ],
+    [
+     "replace",
+     "A",
+     "The"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15800",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.391,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "                \"\"\"\n            ),\n"
+    ],
+    [
+     "delete",
+     ")\n\n",
+     ""
+    ],
+    [
+     "delete",
+     "f __call__(self, ",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "ripti"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15800",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.391,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "                \"\"\"\n            ),\n"
+    ],
+    [
+     "delete",
+     ")\n\n",
+     ""
+    ],
+    [
+     "delete",
+     "f __call__(self, ",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "ripti"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13537",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 25,
+   "ratio": 0.843,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     ") -> Dict[str, Any]:\n    values = {}\n\n  ",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13537",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 28,
+   "ratio": 0.862,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "async def _extract_form_body(\n    body_f",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13537",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 24,
+   "ratio": 0.837,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    values = {}\n\n    for field in body_f",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/api_key.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/api_key.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.538,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "check",
+     ""
+    ],
+    [
+     "replace",
+     "ap",
+     "_"
+    ],
+    [
+     "insert",
+     "",
+     "nit"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/api_key.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.538,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "check",
+     ""
+    ],
+    [
+     "replace",
+     "ap",
+     "_"
+    ],
+    [
+     "insert",
+     "",
+     "nit"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/api_key.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/api_key.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.543,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "        if api_key is None:\n",
+     ""
+    ],
+    [
+     "delete",
+     "if",
+     ""
+    ],
+    [
+     "replace",
+     "auto_error:",
+     "   \"\"\""
+    ],
+    [
+     "insert",
+     "",
+     "Secu"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/api_key.py",
+   "read": true,
+   "old_lines": 13,
+   "ratio": 0.424,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "check",
+     ""
+    ],
+    [
+     "replace",
+     "ap",
+     "_"
+    ],
+    [
+     "insert",
+     "",
+     "nit"
+    ],
+    [
+     "replace",
+     "key",
+     "_"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 13,
+   "ratio": 0.386,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    "
+    ],
+    [
+     "replace",
+     "t",
+     "pr"
+    ],
+    [
+     "insert",
+     "",
+     "xy"
+    ],
+    [
+     "replace",
+     "n",
+     "byp"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.402,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        "
+    ],
+    [
+     "insert",
+     "",
+     "pr"
+    ],
+    [
+     "replace",
+     "u",
+     "xy_bypass_regis"
+    ],
+    [
+     "insert",
+     "",
+     "ry(host)\n"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.423,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    "
+    ],
+    [
+     "replace",
+     "unic",
+     "pr"
+    ],
+    [
+     "replace",
+     "de",
+     "xy"
+    ],
+    [
+     "replace",
+     "is_",
+     "byp"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.436,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "un",
+     "d"
+    ],
+    [
+     "insert",
+     "",
+     "t_t"
+    ],
+    [
+     "delete",
+     "de_is_ascii(u",
+     ""
+    ],
+    [
+     "replace",
+     "tri",
+     "eque"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.436,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "un",
+     "d"
+    ],
+    [
+     "insert",
+     "",
+     "t_t"
+    ],
+    [
+     "delete",
+     "de_is_ascii(u",
+     ""
+    ],
+    [
+     "replace",
+     "tri",
+     "eque"
+    ]
+   ]
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.374,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "d",
+     "\n    "
+    ],
+    [
+     "insert",
+     "",
+     "li"
+    ],
+    [
+     "replace",
+     "unicode_is_",
+     "h"
+    ],
+    [
+     "replace",
+     "cii(u_s",
+     "at"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.999,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 13,
+   "ratio": 0.999,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.999,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.999,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.999,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.999,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 106,
+   "ratio": 0.988,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     ".\n\n            Mutually exclusive with `"
+    ],
+    [
+     "delete",
+     "\n            )\n        return self",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 106,
+   "ratio": 0.988,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     ".\n\n            Mutually exclusive with `"
+    ],
+    [
+     "delete",
+     "\n            )\n        return self",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15589",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15589",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15589",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.902,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "fa"
+    ],
+    [
+     "replace",
+     "rlette",
+     "pi"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.902,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "fa"
+    ],
+    [
+     "replace",
+     "rlette",
+     "pi"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.902,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "fa"
+    ],
+    [
+     "replace",
+     "rlette",
+     "pi"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.902,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "fa"
+    ],
+    [
+     "replace",
+     "rlette",
+     "pi"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.902,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "fa"
+    ],
+    [
+     "replace",
+     "rlette",
+     "pi"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.96,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\n",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.958,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\n",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14962",
+   "file": "fastapi/encoders.py",
+   "read": true,
+   "old_lines": 19,
+   "ratio": 0.709,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def jsonable_encoder(\n    obj: Annotated",
+     ""
+    ],
+    [
+     "delete",
+     "Any,\n        Doc(\"The input object to co",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n            "
+    ],
+    [
+     "insert",
+     "",
+     "\"\"\n            "
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14962",
+   "file": "fastapi/encoders.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.834,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    by_alias: Annotated[\n",
+     ""
+    ],
+    [
+     "delete",
+     "bool,\n",
+     ""
+    ],
+    [
+     "delete",
+     "    Doc(\"",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n           "
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14962",
+   "file": "fastapi/encoders.py",
+   "read": true,
+   "old_lines": 19,
+   "ratio": 0.709,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def jsonable_encoder(\n    obj: Annotated",
+     ""
+    ],
+    [
+     "delete",
+     "Any,\n        Doc(\"The input object to co",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n            "
+    ],
+    [
+     "insert",
+     "",
+     "\"\"\n            "
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14962",
+   "file": "fastapi/encoders.py",
+   "read": true,
+   "old_lines": 19,
+   "ratio": 0.709,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def jsonable_encoder(\n    obj: Annotated",
+     ""
+    ],
+    [
+     "delete",
+     "Any,\n        Doc(\"The input object to co",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n            "
+    ],
+    [
+     "insert",
+     "",
+     "\"\"\n            "
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "file": "fastapi/responses.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.994,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "angolo"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "file": "fastapi/responses.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.994,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "angolo"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "file": "fastapi/responses.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.994,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "angolo"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "file": "fastapi/responses.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.994,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "angolo"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "file": "fastapi/responses.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.994,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "angolo"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "file": "fastapi/responses.py",
+   "read": true,
+   "old_lines": 13,
+   "ratio": 0.994,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "angolo"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "requests_7427",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.705,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    "
+    ],
+    [
+     "insert",
+     "",
+     "+"
+    ],
+    [
+     "replace",
+     "h",
+     "f\":{parsed.p"
+    ],
+    [
+     "replace",
+     "s",
+     "r"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "requests_7427",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.691,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "for proxy_"
+    ],
+    [
+     "replace",
+     "_w",
+     " "
+    ],
+    [
+     "replace",
+     "th",
+     "n no"
+    ],
+    [
+     "insert",
+     "",
+     "r"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.933,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "        *,\\n",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.933,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "        *,\\n",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14873",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.971,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "`",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_12942",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 15,
+   "ratio": 0.712,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    if PYDANTIC_V2:\n",
+     ""
+    ],
+    [
+     "delete",
+     "\n        ",
+     ""
+    ],
+    [
+     "delete",
+     "\n       ",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "}\n    if PYDANTIC_V2:\n        kwargs.upd"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_12942",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 15,
+   "ratio": 0.712,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    if PYDANTIC_V2:\n",
+     ""
+    ],
+    [
+     "delete",
+     "\n        ",
+     ""
+    ],
+    [
+     "delete",
+     "\n       ",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "}\n    if PYDANTIC_V2:\n        kwargs.upd"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_12942",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 15,
+   "ratio": 0.712,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    if PYDANTIC_V2:\n",
+     ""
+    ],
+    [
+     "delete",
+     "\n        ",
+     ""
+    ],
+    [
+     "delete",
+     "\n       ",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "}\n    if PYDANTIC_V2:\n        kwargs.upd"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_12942",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.735,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "field_info = field_info or FieldInfo()\n ",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     ".update(\n"
+    ],
+    [
+     "replace",
+     "=",
+     "          "
+    ],
+    [
+     "insert",
+     "",
+     "        "
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_12942",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 15,
+   "ratio": 0.712,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    if PYDANTIC_V2:\n",
+     ""
+    ],
+    [
+     "delete",
+     "\n        ",
+     ""
+    ],
+    [
+     "delete",
+     "\n       ",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "}\n    if PYDANTIC_V2:\n        kwargs.upd"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14099",
+   "file": "fastapi/routing.py",
+   "read": false,
+   "old_lines": 7
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14099",
+   "file": "fastapi/routing.py",
+   "read": false,
+   "old_lines": 7
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14099",
+   "file": "fastapi/routing.py",
+   "read": false,
+   "old_lines": 21
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14487",
+   "file": "fastapi/exception_handlers.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.991,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14487",
+   "file": "fastapi/exception_handlers.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.991,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14487",
+   "file": "fastapi/exception_handlers.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.996,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14306",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 10,
+   "ratio": 0.992,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14448",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.994,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14448",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.994,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14448",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.994,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14448",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.994,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14430",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14266",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.683,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14266",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.683,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14266",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.683,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.939,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     "None",
+     "\"FastAPI\""
+    ],
+    [
+     "replace",
+     "'''",
+     "\"\"\""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.939,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     "None",
+     "\"FastAPI\""
+    ],
+    [
+     "replace",
+     "'''",
+     "\"\"\""
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15800",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/api_key.py",
+   "read": false,
+   "old_lines": 20
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/api_key.py",
+   "read": false,
+   "old_lines": 20
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 18,
+   "ratio": 0.342,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def __init__(\n",
+     ""
+    ],
+    [
+     "replace",
+     "elf",
+     "tr"
+    ],
+    [
+     "delete",
+     "\n        *,\\n        scheme_name: Annota",
+     ""
+    ],
+    [
+     "replace",
+     "Opti",
+     "F"
+    ]
+   ]
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15661",
+   "file": "fastapi/__init__.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.92,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\"",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.717,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "\"\"\"",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "](https://fastapi.tiangolo.com/tutorial/"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.974,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "replace",
+     ".ti",
+     "angolo"
+    ],
+    [
+     "delete",
+     "\n",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.746,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "\\\"\\\"\\\"\\n",
+     "```\n"
+    ],
+    [
+     "delete",
+     "),\n",
+     ""
+    ],
+    [
+     "replace",
+     "    ] = None,\\n        title: Annotated[",
+     "\"\"\""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.667,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "                \\\"\\\"\\\"\\n            ),\n",
+     ""
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15023",
+   "file": "docs/en/docs/advanced/stream-data.md",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.986,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15023",
+   "file": "docs/en/docs/advanced/stream-data.md",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.986,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15023",
+   "file": "docs/en/docs/advanced/stream-data.md",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.986,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14986",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.962,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "Any,\n    "
+    ],
+    [
+     "delete",
+     "\n)",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.388,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        else En"
+    ],
+    [
+     "replace",
+     "ef ",
+     "po"
+    ],
+    [
+     "replace",
+     "clude_r",
+     "tC"
+    ],
+    [
+     "replace",
+     "u",
+     "n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.388,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        else En"
+    ],
+    [
+     "replace",
+     "ef ",
+     "po"
+    ],
+    [
+     "replace",
+     "clude_r",
+     "tC"
+    ],
+    [
+     "replace",
+     "u",
+     "n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.388,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        else En"
+    ],
+    [
+     "replace",
+     "ef ",
+     "po"
+    ],
+    [
+     "replace",
+     "clude_r",
+     "tC"
+    ],
+    [
+     "replace",
+     "u",
+     "n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.388,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        else En"
+    ],
+    [
+     "replace",
+     "ef ",
+     "po"
+    ],
+    [
+     "replace",
+     "clude_r",
+     "tC"
+    ],
+    [
+     "replace",
+     "u",
+     "n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.388,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        else En"
+    ],
+    [
+     "replace",
+     "ef ",
+     "po"
+    ],
+    [
+     "replace",
+     "clude_r",
+     "tC"
+    ],
+    [
+     "replace",
+     "u",
+     "n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.388,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        else En"
+    ],
+    [
+     "replace",
+     "ef ",
+     "po"
+    ],
+    [
+     "replace",
+     "clude_r",
+     "tC"
+    ],
+    [
+     "replace",
+     "u",
+     "n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.388,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        else En"
+    ],
+    [
+     "replace",
+     "ef ",
+     "po"
+    ],
+    [
+     "replace",
+     "clude_r",
+     "tC"
+    ],
+    [
+     "replace",
+     "u",
+     "n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.388,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        else En"
+    ],
+    [
+     "replace",
+     "ef ",
+     "po"
+    ],
+    [
+     "replace",
+     "clude_r",
+     "tC"
+    ],
+    [
+     "replace",
+     "u",
+     "n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14786",
+   "file": "fastapi/security/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.989,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.8,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "            assert (\\\n                is",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.8,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "            assert (\\\n                is",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.8,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "            assert (\\\n                is",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14609",
+   "file": "fastapi/_compat/v1.py",
+   "read": false,
+   "old_lines": 150
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14609",
+   "file": "fastapi/_compat/v1.py",
+   "read": false,
+   "old_lines": 147
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14609",
+   "file": "fastapi/_compat/may_v1.py",
+   "read": true,
+   "old_lines": 19,
+   "ratio": 0.971,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "else:\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n    from .v1 import BaseModel as BaseMo"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.915,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.915,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.915,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.634,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "\\\"loc\\\":",
+     ""
+    ],
+    [
+     "delete",
+     "{\\\"title\\\":",
+     ""
+    ],
+    [
+     "delete",
+     "\\\"Location\\\",",
+     ""
+    ],
+    [
+     "delete",
+     "\\\"type\\\":",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.9,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14306",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.988,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14306",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14306",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14430",
+   "file": "fastapi/_compat/shared.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14430",
+   "file": "fastapi/_compat/shared.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14430",
+   "file": "fastapi/_compat/shared.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.506,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    if origin is Union or origin is Unio",
+     ""
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ],
+    [
+     "delete",
+     "\\n    )\n",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14360",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.913,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "p",
+     "if not (alias o"
+    ],
+    [
+     "replace",
+     "ocessed_keys.add(",
+     " "
+    ],
+    [
+     "delete",
+     "n",
+     ""
+    ],
+    [
+     "replace",
+     "me",
+     "lias"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.889,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.838,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        ] = None,\n"
+    ],
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 10,
+   "ratio": 0.85,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "            ),\n"
+    ],
+    [
+     "delete",
+     "\", \"start_line\": 1, \"end_line\": 150, \"to",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14791",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.868,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    \"properties\": {\n",
+     ""
+    ],
+    [
+     "delete",
+     "\"loc\":",
+     ""
+    ],
+    [
+     "delete",
+     "{\"title\":",
+     ""
+    ],
+    [
+     "delete",
+     "\"Location\",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14791",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.868,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    \"properties\": {\n",
+     ""
+    ],
+    [
+     "delete",
+     "\"loc\":",
+     ""
+    ],
+    [
+     "delete",
+     "{\"title\":",
+     ""
+    ],
+    [
+     "delete",
+     "\"Location\",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14791",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 10,
+   "ratio": 0.827,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "validation_error_definition = {\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n            "
+    ],
+    [
+     "insert",
+     "",
+     "\n           "
+    ],
+    [
+     "insert",
+     "",
+     "\n           "
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15800",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.795,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "._exception_handler"
+    ],
+    [
+     "insert",
+     "",
+     "w"
+    ],
+    [
+     "replace",
+     "out",
+     "ap_app_handl"
+    ],
+    [
+     "insert",
+     "",
+     "_exceptions"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15800",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.795,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "._exception_handler"
+    ],
+    [
+     "insert",
+     "",
+     "w"
+    ],
+    [
+     "replace",
+     "out",
+     "ap_app_handl"
+    ],
+    [
+     "insert",
+     "",
+     "_exceptions"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15800",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.795,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "._exception_handler"
+    ],
+    [
+     "insert",
+     "",
+     "w"
+    ],
+    [
+     "replace",
+     "out",
+     "ap_app_handl"
+    ],
+    [
+     "insert",
+     "",
+     "_exceptions"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15800",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.795,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "._exception_handler"
+    ],
+    [
+     "insert",
+     "",
+     "w"
+    ],
+    [
+     "replace",
+     "out",
+     "ap_app_handl"
+    ],
+    [
+     "insert",
+     "",
+     "_exceptions"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14605",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.671,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "if TYPE_CHECKING:"
+    ],
+    [
+     "insert",
+     "",
+     "#"
+    ],
+    [
+     "insert",
+     "",
+     "pragma:"
+    ],
+    [
+     "delete",
+     "U",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14605",
+   "file": "fastapi/temp_pydantic_v1_params.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14297",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14297",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14297",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14297",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14297",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "file": "fastapi/_compat/v1.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.994,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     ":"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "file": "fastapi/_compat/v1.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.994,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     ":"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "file": "fastapi/_compat/v1.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.817,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "from typing_extensions import Literal",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     ":"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "file": "fastapi/_compat/v1.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.817,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "from typing_extensions import Literal",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     ":"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "file": "fastapi/_compat/v1.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.994,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     ":"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "file": "fastapi/_compat/v1.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.994,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     ":"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13537",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.931,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\"",
+     ""
+    ],
+    [
+     "delete",
+     "\\\"\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_11194",
+   "file": "fastapi/params.py",
+   "read": false,
+   "old_lines": 5
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15589",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.962,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "f\"",
+     ""
+    ],
+    [
+     "delete",
+     "\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.446,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    "
+    ],
+    [
+     "insert",
+     "",
+     "data_exclus"
+    ],
+    [
+     "replace",
+     "d_no_nu",
+     "ve(se"
+    ],
+    [
+     "replace",
+     "l(v: str | None",
+     "f"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.997,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15588",
+   "file": "fastapi/sse.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.446,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    "
+    ],
+    [
+     "insert",
+     "",
+     "data_exclus"
+    ],
+    [
+     "replace",
+     "d_no_nu",
+     "ve(se"
+    ],
+    [
+     "replace",
+     "l(v: str | None",
+     "f"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.84,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     ")"
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "replace",
+     "'''\n",
+     "It"
+    ],
+    [
+     "insert",
+     "",
+     "will"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 16,
+   "ratio": 0.973,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        ] = None,\n"
+    ],
+    [
+     "replace",
+     ".",
+     "a"
+    ],
+    [
+     "insert",
+     "",
+     "olo.com"
+    ],
+    [
+     "delete",
+     "\n",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 14,
+   "ratio": 0.984,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     ".",
+     "a"
+    ],
+    [
+     "insert",
+     "",
+     "olo.com"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 14,
+   "ratio": 0.984,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     ".",
+     "a"
+    ],
+    [
+     "insert",
+     "",
+     "olo.com"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 14,
+   "ratio": 0.984,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     ".",
+     "a"
+    ],
+    [
+     "insert",
+     "",
+     "olo.com"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.824,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.996,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 8,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.996,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.996,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 8,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14258",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.698,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "add_ap"
+    ],
+    [
+     "replace",
+     "n",
+     "_webso"
+    ],
+    [
+     "replace",
+     "lud",
+     "k"
+    ],
+    [
+     "insert",
+     "",
+     "t"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14258",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.738,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "add_ap"
+    ],
+    [
+     "replace",
+     "n",
+     "_webso"
+    ],
+    [
+     "replace",
+     "lud",
+     "k"
+    ],
+    [
+     "insert",
+     "",
+     "t"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14258",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.738,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "add_ap"
+    ],
+    [
+     "replace",
+     "n",
+     "_webso"
+    ],
+    [
+     "replace",
+     "lud",
+     "k"
+    ],
+    [
+     "insert",
+     "",
+     "t"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14258",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.698,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "add_ap"
+    ],
+    [
+     "replace",
+     "n",
+     "_webso"
+    ],
+    [
+     "replace",
+     "lud",
+     "k"
+    ],
+    [
+     "insert",
+     "",
+     "t"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.941,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "            )\n"
+    ],
+    [
+     "delete",
+     " or (\n                )",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "f"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.971,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "            )\n"
+    ],
+    [
+     "delete",
+     "\n```",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.973,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     " or (\n                )",
+     ""
+    ],
+    [
+     "replace",
+     "\\n",
+     "\n"
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_12942",
+   "file": "fastapi/_compat.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.853,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "                -"
+    ],
+    [
+     "insert",
+     "",
+     "                -"
+    ],
+    [
+     "insert",
+     "",
+     "    -            "
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_12942",
+   "file": "fastapi/_compat.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.853,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "                -"
+    ],
+    [
+     "insert",
+     "",
+     "                -"
+    ],
+    [
+     "insert",
+     "",
+     "    -            "
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_12942",
+   "file": "fastapi/_compat.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.853,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "                -"
+    ],
+    [
+     "insert",
+     "",
+     "                -"
+    ],
+    [
+     "insert",
+     "",
+     "    -            "
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_12942",
+   "file": "fastapi/_compat.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.853,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "                -"
+    ],
+    [
+     "insert",
+     "",
+     "                -"
+    ],
+    [
+     "insert",
+     "",
+     "    -            "
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_12942",
+   "file": "fastapi/_compat.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.853,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "                -"
+    ],
+    [
+     "insert",
+     "",
+     "                -"
+    ],
+    [
+     "insert",
+     "",
+     "    -            "
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14609",
+   "file": "fastapi/_compat/__init__.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.985,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\"",
+     ""
+    ],
+    [
+     "delete",
+     "\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14487",
+   "file": "docs/pt/docs/tutorial/handling-errors.md",
+   "read": false,
+   "old_lines": 1
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14487",
+   "file": "docs/pt/docs/tutorial/handling-errors.md",
+   "read": false,
+   "old_lines": 1
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14487",
+   "file": "docs/pt/docs/tutorial/handling-errors.md",
+   "read": false,
+   "old_lines": 1
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14487",
+   "file": "docs/pt/docs/tutorial/handling-errors.md",
+   "read": false,
+   "old_lines": 1
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14485",
+   "file": "fastapi/utils.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.996,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14306",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.697,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n\n"
+    ],
+    [
+     "insert",
+     "",
+     "WebSocket"
+    ],
+    [
+     "insert",
+     "",
+     "que"
+    ],
+    [
+     "replace",
+     "ponse",
+     "t"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14306",
+   "file": "fastapi/exceptions.py",
+   "read": true,
+   "old_lines": 10,
+   "ratio": 0.698,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "insert",
+     "",
+     "WebSocket"
+    ],
+    [
+     "insert",
+     "",
+     "que"
+    ],
+    [
+     "replace",
+     "ponse",
+     "t"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14459",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.985,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "    \"\"\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14459",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.985,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "    \"\"\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14459",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.985,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "    \"\"\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14459",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.985,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "    \"\"\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14448",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14448",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14448",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14448",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13207",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13207",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.219,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    if sub_",
+     ""
+    ],
+    [
+     "replace",
+     "a",
+     "e"
+    ],
+    [
+     "replace",
+     "t.us",
+     "cy_ov"
+    ],
+    [
+     "replace",
+     "_cache and sub_",
+     "rri"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14360",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.419,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "p",
+     "get_annotation_f"
+    ],
+    [
+     "replace",
+     "c",
+     "m_fi"
+    ],
+    [
+     "replace",
+     "sse",
+     "l"
+    ],
+    [
+     "replace",
+     "keys = set()",
+     "info,"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14419",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.965,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    "
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14419",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.965,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    "
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14419",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14419",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14262",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.903,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "            \"\"\",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14262",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.903,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "            \"\"\",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14262",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.903,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "            \"\"\",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14262",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.903,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "            \"\"\",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14262",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.887,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "            \"\"\",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14246",
+   "file": "fastapi/_compat/shared.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.552,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n\n"
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\\n            annotation, (BaseModel, ma",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "httpx_3672",
+   "file": "src/httpx/_parsers.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.58,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "de",
+     "    i"
+    ],
+    [
+     "delete",
+     "complete(",
+     ""
+    ],
+    [
+     "replace",
+     ")",
+     ".mode"
+    ],
+    [
+     "replace",
+     "->",
+     "=="
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13713",
+   "file": "./fastapi/applications.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.917,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        ] = None,\n"
+    ],
+    [
+     "insert",
+     "",
+     ")"
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "\",\n            )\n        ] = None,",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13713",
+   "file": "./fastapi/applications.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.917,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        ] = None,\n"
+    ],
+    [
+     "insert",
+     "",
+     ")"
+    ],
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "\",\n            )\n        ] = None,",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13713",
+   "file": "./fastapi/applications.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.89,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "\",",
+     "\n"
+    ],
+    [
+     "delete",
+     ")\n",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "Read"
+    ],
+    [
+     "insert",
+     "",
+     "more"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13713",
+   "file": "./fastapi/applications.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13713",
+   "file": "./fastapi/applications.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.515,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "            ),\\n        ] = None,\\n",
+     ""
+    ],
+    [
+     "delete",
+     "\\n            Doc(\\n                \\\"\\\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15800",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 12,
+   "ratio": 0.972,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "insert",
+     "",
+     "angolo"
+    ],
+    [
+     "replace",
+     "\n    ",
+     "com"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15800",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.988,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     ".",
+     "a"
+    ],
+    [
+     "replace",
+     "u",
+     "o"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15800",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 11,
+   "ratio": 0.993,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     ".",
+     "a"
+    ],
+    [
+     "replace",
+     "u",
+     "o"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.751,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    validation_alias: Annotated[\n       ",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.751,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    validation_alias: Annotated[\n       ",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.751,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    validation_alias: Annotated[\n       ",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.751,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    validation_alias: Annotated[\n       ",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.751,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    validation_alias: Annotated[\n       ",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.961,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "replace",
+     "{2}",
+     "#"
+    ],
+    [
+     "insert",
+     "",
+     "\\"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.943,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "replace",
+     "{2}",
+     "#"
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.943,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "replace",
+     "{2}",
+     "#"
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.948,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "replace",
+     "{2}",
+     "#"
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15661",
+   "file": "scripts/add_latest_release_date.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.948,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "replace",
+     "{2}",
+     "#"
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.502,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "if "
+    ],
+    [
+     "replace",
+     "ame =",
+     "ot"
+    ],
+    [
+     "delete",
+     "_valid",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "tr(f"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.502,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "if "
+    ],
+    [
+     "replace",
+     "ame =",
+     "ot"
+    ],
+    [
+     "delete",
+     "_valid",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "tr(f"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.502,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "if "
+    ],
+    [
+     "replace",
+     "ame =",
+     "ot"
+    ],
+    [
+     "delete",
+     "_valid",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "tr(f"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.502,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "if "
+    ],
+    [
+     "replace",
+     "ame =",
+     "ot"
+    ],
+    [
+     "delete",
+     "_valid",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "tr(f"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "file": "fastapi/openapi/utils.py",
+   "read": true,
+   "old_lines": 7,
+   "ratio": 0.502,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "if "
+    ],
+    [
+     "replace",
+     "ame =",
+     "ot"
+    ],
+    [
+     "delete",
+     "_valid",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "tr(f"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": false,
+   "old_lines": 20
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": false,
+   "old_lines": 4
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": false,
+   "old_lines": 4
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": false,
+   "old_lines": 4
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "file": "fastapi/applications.py",
+   "read": false,
+   "old_lines": 4
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14986",
+   "file": "fastapi/applications.py",
+   "read": false,
+   "old_lines": 20
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14986",
+   "file": "fastapi/openapi/docs.py",
+   "read": true,
+   "old_lines": 13,
+   "ratio": 0.992,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     ">"
+    ],
+    [
+     "insert",
+     "",
+     ">"
+    ],
+    [
+     "insert",
+     "",
+     ">"
+    ],
+    [
+     "delete",
+     "\"\"\"",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.726,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\"",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\n            url = f\\\"/{url.lstrip('/')",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.708,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\"",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\n            url = f\\\"/{url.lstrip('/')",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7315",
+   "file": "src/requests/adapters.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.708,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\"",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\n            url = f\\\"/{url.lstrip('/')",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7309",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 14,
+   "ratio": 0.346,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "insert",
+     "",
+     "get"
+    ],
+    [
+     "replace",
+     "p",
+     "netrc_"
+    ],
+    [
+     "insert",
+     "",
+     "uth(u"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7309",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 14,
+   "ratio": 0.346,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "insert",
+     "",
+     "get"
+    ],
+    [
+     "replace",
+     "p",
+     "netrc_"
+    ],
+    [
+     "insert",
+     "",
+     "uth(u"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7309",
+   "file": "src/requests/utils.py",
+   "read": true,
+   "old_lines": 14,
+   "ratio": 0.346,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "insert",
+     "",
+     "get"
+    ],
+    [
+     "replace",
+     "p",
+     "netrc_"
+    ],
+    [
+     "insert",
+     "",
+     "uth(u"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14873",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 10,
+   "ratio": 0.783,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "args",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n                "
+    ],
+    [
+     "insert",
+     "",
+     "\"\"\n                "
+    ],
+    [
+     "delete",
+     " router.\"),\n        ] = None,\n        de",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14873",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 10,
+   "ratio": 0.783,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "args",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n                "
+    ],
+    [
+     "insert",
+     "",
+     "\"\"\n                "
+    ],
+    [
+     "delete",
+     " router.\"),\n        ] = None,\n        de",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14873",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.767,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "Doc(\"A list of tags to be applied to all",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14873",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 10,
+   "ratio": 0.783,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "args",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "\n                "
+    ],
+    [
+     "insert",
+     "",
+     "\"\"\n                "
+    ],
+    [
+     "delete",
+     " router.\"),\n        ] = None,\n        de",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.384,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "router:",
+     ""
+    ],
+    [
+     "replace",
+     "Annotated[",
+     "       "
+    ],
+    [
+     "delete",
+     "APIRouter",
+     ""
+    ],
+    [
+     "delete",
+     ", Doc(",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.384,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "router:",
+     ""
+    ],
+    [
+     "replace",
+     "Annotated[",
+     "       "
+    ],
+    [
+     "delete",
+     "APIRouter",
+     ""
+    ],
+    [
+     "delete",
+     ", Doc(",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14258",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.384,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "router:",
+     ""
+    ],
+    [
+     "replace",
+     "Annotated[",
+     "       "
+    ],
+    [
+     "delete",
+     "APIRouter",
+     ""
+    ],
+    [
+     "delete",
+     ", Doc(",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.34,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "            assert (\n    ",
+     ""
+    ],
+    [
+     "replace",
+     "_",
+     "in"
+    ],
+    [
+     "insert",
+     "",
+     "tan"
+    ],
+    [
+     "delete",
+     "alar_fi",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.34,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "            assert (\n    ",
+     ""
+    ],
+    [
+     "replace",
+     "_",
+     "in"
+    ],
+    [
+     "insert",
+     "",
+     "tan"
+    ],
+    [
+     "delete",
+     "alar_fi",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 8,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 9,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "file": "fastapi/dependencies/utils.py",
+   "read": true,
+   "old_lines": 8,
+   "ratio": 0.998,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     ",",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_12942",
+   "file": "fastapi/_compat.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.981,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "    ",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_12942",
+   "file": "fastapi/_compat.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.997,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     ":"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_12942",
+   "file": "fastapi/_compat.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.998,
+   "kind": "dropped_chars",
+   "chunks": [
+    [
+     "insert",
+     "",
+     ":"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14349",
+   "file": "fastapi/_compat/v2.py",
+   "read": false,
+   "old_lines": 8
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14349",
+   "file": "fastapi/_compat/v2.py",
+   "read": false,
+   "old_lines": 8
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14349",
+   "file": "fastapi/_compat/v2.py",
+   "read": false,
+   "old_lines": 1
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14512",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.308,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def",
+     ""
+    ],
+    [
+     "replace",
+     "B",
+     "       Opti"
+    ],
+    [
+     "replace",
+     "dy",
+     "nal[str],\n        Doc"
+    ],
+    [
+     "delete",
+     "#",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14512",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.299,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def Body(",
+     ""
+    ],
+    [
+     "delete",
+     "#",
+     ""
+    ],
+    [
+     "replace",
+     "n",
+     "     D"
+    ],
+    [
+     "replace",
+     "qa: N802",
+     "c("
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14487",
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "read": false,
+   "old_lines": 1
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14487",
+   "file": "docs/es/docs/tutorial/handling-errors.md",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.962,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14458",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 22,
+   "ratio": 0.955,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "asyn"
+    ],
+    [
+     "replace",
+     "orouti",
+     "_ge"
+    ],
+    [
+     "delete",
+     "e",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "asyn"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14458",
+   "file": "fastapi/dependencies/models.py",
+   "read": true,
+   "old_lines": 22,
+   "ratio": 0.955,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "asyn"
+    ],
+    [
+     "replace",
+     "orouti",
+     "_ge"
+    ],
+    [
+     "delete",
+     "e",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "asyn"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14455",
+   "file": "fastapi/security/oauth2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.623,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     "fl",
+     "sc"
+    ],
+    [
+     "replace",
+     "w",
+     "pe"
+    ],
+    [
+     "replace",
+     "f",
+     "scope.sp"
+    ],
+    [
+     "replace",
+     "ows",
+     "it()"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14430",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14430",
+   "file": "fastapi/param_functions.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 1.0,
+   "kind": "identical",
+   "chunks": []
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.971,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.971,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.971,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.971,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.971,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "file": "fastapi/_compat/v2.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.971,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14262",
+   "file": "fastapi/routing.py",
+   "read": false,
+   "old_lines": 4
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14262",
+   "file": "fastapi/routing.py",
+   "read": false,
+   "old_lines": 5
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14262",
+   "file": "fastapi/routing.py",
+   "read": false,
+   "old_lines": 5
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14262",
+   "file": "fastapi/routing.py",
+   "read": false,
+   "old_lines": 5
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14262",
+   "file": "fastapi/routing.py",
+   "read": false,
+   "old_lines": 4
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14246",
+   "file": "fastapi/_compat/v1.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14246",
+   "file": "fastapi/_compat/v1.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14246",
+   "file": "fastapi/_compat/v1.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.297,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "def get_model_definitions(\n",
+     ""
+    ],
+    [
+     "delete",
+     " *,\\n    flat_models: Set[Union[Type[Bas",
+     ""
+    ],
+    [
+     "delete",
+     "Union[",
+     ""
+    ],
+    [
+     "replace",
+     "y",
+     "u"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14246",
+   "file": "fastapi/_compat/v1.py",
+   "read": true,
+   "old_lines": 4,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_13713",
+   "file": "fastapi/applications.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.232,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "        ] = None,\\n        external_docs",
+     ""
+    ],
+    [
+     "replace",
+     "'''\\",
+     "Read more i"
+    ],
+    [
+     "insert",
+     "",
+     " the\n"
+    ],
+    [
+     "replace",
+     "A dic",
+     "[S"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "httpx_3672",
+   "file": "src/httpx/_parsers.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.821,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "\n\n        if not (is_fully_complete and ",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "httpx_3672",
+   "file": "src/httpx/_parsers.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.821,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "\n\n        if not (is_fully_complete and ",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "httpx_3672",
+   "file": "src/httpx/_parsers.py",
+   "read": true,
+   "old_lines": 6,
+   "ratio": 0.821,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "delete",
+     "\n\n        if not (is_fully_complete and ",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15800",
+   "file": "fastapi/applications.py",
+   "read": false,
+   "old_lines": 20
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15800",
+   "file": "fastapi/applications.py",
+   "read": false,
+   "old_lines": 22
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15800",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 22,
+   "ratio": 0.281,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "de",
+     "    i"
+    ],
+    [
+     "insert",
+     "",
+     "is"
+    ],
+    [
+     "insert",
+     "",
+     "async"
+    ],
+    [
+     "replace",
+     "i",
+     "callable(fu"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15800",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 2,
+   "ratio": 0.531,
+   "kind": "substitution",
+   "chunks": [
+    [
+     "replace",
+     "routes: list[BaseRoute]",
+     "_cm"
+    ],
+    [
+     "replace",
+     "[]",
+     "cm"
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15800",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.452,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "replace",
+     "    ",
+     "a"
+    ],
+    [
+     "replace",
+     "elf.i",
+     "y"
+    ],
+    [
+     "replace",
+     "lu",
+     " "
+    ],
+    [
+     "insert",
+     "",
+     "f "
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14605",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.923,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        "
+    ],
+    [
+     "delete",
+     ",",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "        "
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14605",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 3,
+   "ratio": 0.958,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "    "
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "    "
+    ],
+    [
+     "insert",
+     "",
+     "    "
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14605",
+   "file": "fastapi/routing.py",
+   "read": true,
+   "old_lines": 5,
+   "ratio": 0.901,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "        "
+    ],
+    [
+     "delete",
+     ",",
+     ""
+    ],
+    [
+     "insert",
+     "",
+     "        "
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.291,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "delete",
+     "    def __init__(\\n",
+     ""
+    ],
+    [
+     "delete",
+     "self,\\n",
+     ""
+    ],
+    [
+     "replace",
+     "*",
+     "By default"
+    ],
+    [
+     "delete",
+     "\\n",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_13786",
+   "file": "fastapi/security/http.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.726,
+   "kind": "extra_chars",
+   "chunks": [
+    [
+     "delete",
+     "                raise HTTPException(\\n",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\",
+     ""
+    ],
+    [
+     "delete",
+     "\\n                )",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_11194",
+   "file": "fastapi/params.py",
+   "read": true,
+   "old_lines": 10,
+   "ratio": 0.914,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "replace",
+     "Undefined",
+     "..."
+    ],
+    [
+     "insert",
+     "",
+     ","
+    ],
+    [
+     "delete",
+     ",\n        media_type: str = \"multipart/f",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_11194",
+   "file": "fastapi/params.py",
+   "read": true,
+   "old_lines": 19,
+   "ratio": 0.959,
+   "kind": "mixed",
+   "chunks": [
+    [
+     "insert",
+     "",
+     "\n"
+    ],
+    [
+     "replace",
+     "Undefined",
+     "..."
+    ],
+    [
+     "insert",
+     "",
+     ","
+    ],
+    [
+     "delete",
+     ",\n        media_type: str = \"multipart/f",
+     ""
+    ]
+   ]
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_11194",
+   "file": "fastapi/params.py",
+   "read": true,
+   "old_lines": 1,
+   "ratio": 0.0,
+   "kind": "none",
+   "chunks": []
+  }
+ ]
+}

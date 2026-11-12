@@ -1,0 +1,79 @@
+{
+ "fastapi_14099": [
+  "app"
+ ],
+ "fastapi_14186": [
+  "BaseModel"
+ ],
+ "fastapi_14609": [
+  "PydanticV1NotSupportedError"
+ ],
+ "fastapi_14953": [
+  "DataInput",
+  "DataInputOutput",
+  "DataOutput"
+ ],
+ "fastapi_15030": [
+  "EventSourceResponse",
+  "Item",
+  "Prompt",
+  "ServerSentEvent",
+  "sse_items",
+  "sse_items_no_annotation"
+ ],
+ "fastapi_15280": [
+  "ai_vibes"
+ ],
+ "fastapi_15661": [
+  "bump_version",
+  "current_version",
+  "get_release_notes_body",
+  "prepare",
+  "update_release_notes",
+  "update_version_file"
+ ],
+ "fastapi_15745": [
+  "add_route",
+  "effective_candidates",
+  "effective_route_contexts",
+  "read_items",
+  "url_path_for"
+ ],
+ "fastapi_15785": [
+  "RouteContext",
+  "endpoint",
+  "methods",
+  "original_route",
+  "path",
+  "path_format"
+ ],
+ "fastapi_15800": [
+  "APIRouter",
+  "effective_low_priority_routes",
+  "handle",
+  "matches",
+  "route",
+  "url_path_for",
+  "with_prefix"
+ ],
+ "rich_3061": [
+  "extend_style"
+ ],
+ "rich_3180": [
+  "chop_cells"
+ ],
+ "rich_3930": [
+  "cell_len",
+  "chop_cells",
+  "get_character_cell_size",
+  "load",
+  "split_graphemes",
+  "split_text"
+ ],
+ "rich_3938": [
+  "split_lines_terminator"
+ ],
+ "rich_3942": [
+  "Heading"
+ ]
+}

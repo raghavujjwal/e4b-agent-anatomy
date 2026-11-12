@@ -1,0 +1,16 @@
+# E4B aid2 arm: aid (../submission_e4b_aid) with the fixes the aid1 run pointed to; the baseline (../submission_e4b) plus the repo_aid skill (find_files, edit_retry) and the two paragraphs of the
+# prompt that tell the model to use them. Sampling and budgets are the baseline's. See README.md.
+name: swe_agent
+model: gemma-4-e4b-it-qat-w4a16-ct
+description: Resolves an issue with one minimal source edit.
+instruction: !include prompts/flat_search.md
+skills:
+  - skills/repo_aid
+tools:
+  - read_file
+  - edit_file
+  - write_file
+  - run_command
+  - get_status
+  - submit_patch
+generate_content_config: !include configs/sampling.yaml

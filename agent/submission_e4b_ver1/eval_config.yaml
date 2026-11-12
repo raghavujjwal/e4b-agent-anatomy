@@ -1,0 +1,14 @@
+# Scoring is serial: ~120 tasks must finish inside 12 hours including a one-time ~900 s
+# server start, and an overrun errors the entire submission rather than truncating it.
+#   900 + 120 x 330 s = 11.25 h  <- holds even if EVERY task saturates the cap.
+# 5.5 minutes is the LARGEST cap that is safe at full saturation: 6 minutes is 12.25 h and
+# would error the whole submission. DEVIL-009 caught that the earlier 5-minute choice gave
+# away 30 s/task to avoid a risk the observed means (216-381 s) say does not materialise.
+# max_tool_calls 24: resolved runs had a median of 18 tool calls while timeouts and context
+# overflows had 43-47, and the configuration capped at 20 calls was the only one in an
+# 11-arm ablation with zero context overflows (EXP-005).
+evaluation:
+  timeout_seconds: 90
+  max_tool_calls: 30
+  max_time_minutes: 5.5
+  max_turns: 50

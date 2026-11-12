@@ -1,0 +1,86 @@
+{
+ "samples": 1606,
+ "pass": true,
+ "checks": [
+  {
+   "name": "lengths",
+   "pass": true,
+   "detail": "median 5859 (<= 7000), max 11574 (<= 12000)"
+  },
+  {
+   "name": "control tokens",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "loss mask",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "text and ids",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "arguments",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "edits",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "envelope",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "verification",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "format",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "leaks",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "teacher names",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "first message",
+   "pass": true,
+   "detail": "0 problems in 0 samples"
+  },
+  {
+   "name": "system prompt",
+   "pass": true,
+   "detail": "thinking off: 1652 shared tokens, user turn starts at 1640; thinking on: 1654 shared tokens, user turn starts at 1642"
+  },
+  {
+   "name": "scorer capture",
+   "pass": true,
+   "detail": "system message and tool block equal the captured request's (thinking off: 1640 tokens identical; thinking on: 1642 tokens identical)"
+  },
+  {
+   "name": "samples",
+   "pass": true,
+   "detail": "0 duplicated ids, thinking on for 49%"
+  },
+  {
+   "name": "prefix",
+   "pass": true,
+   "detail": "render drops: {\"verification does not touch the edit\": 66, \"repository has no declared licence\": 34, \"teacher path left in user\": 4, \"over 12000 tokens\": 4, \"evaluation-pool repository in user\": 4, \"teacher path left in tool\": 1, \"evaluation-pool repository in tool\": 2}"
+  }
+ ]
+}

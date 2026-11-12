@@ -1,0 +1,12 @@
+# Stage 1. No edit_file, write_file or submit_patch: the stage cannot change the repository, so a reproduction (rung S2 on) necessarily comes before the edit.
+# Its last message is stored in session state as `findings` and rendered into the instruction of the next stage.
+name: investigate
+model: gemma-4-e4b-it-qat-w4a16-ct
+description: Finds where and why, and writes a hand-over note.
+instruction: !include ../prompts/investigate.md
+output_key: findings
+tools:
+  - read_file
+  - run_command
+  - get_status
+generate_content_config: !include ../configs/sampling.yaml

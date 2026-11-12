@@ -1,0 +1,663 @@
+{
+ "report": {
+  "edit_calls": 1077,
+  "outcomes": {
+   "ok": 472,
+   "old_string not found": 454,
+   "ambiguous": 85,
+   "other: FileEditError old_string must be non-empty": 12,
+   "odd argument keys: None)\\n        origin_type = non_none_ar": 5,
+   "odd argument keys: new_string=\"        security_definition ": 5,
+   "odd argument keys: new_string=\"        elif is_gen_callable": 4,
+   "odd argument keys: new_string=\"        type_annotation = an": 4,
+   "odd argument keys: new_string=\"        unique_scopes = list": 3,
+   "odd argument keys: new_string=\"        security_name = secu": 2,
+   "odd argument keys: }</title>\",old_string": 1,
+   "odd argument keys: }</title>',old_string": 1,
+   "odd argument keys: ensure the detail does not\n             ": 1,
+   "odd argument keys: }({self.default})\\\"\n\n    @property\n    d": 1,
+   "odd argument keys: ]+', '/', url)\n\"\"\",old_string": 1,
+   "odd argument keys: endpoint=endpoint,\n            response_": 1,
+   "odd argument keys: \"diff\",\"strategy\",6 +38,15 @@\\n         ": 1,
+   "odd argument keys: ] = Field(alias=\\\"$ref\\\")\",old_string": 1,
+   "odd argument keys: new_string='\"contentMediaType\",old_strin": 1,
+   "odd argument keys: \"contentMediaType\",\"format\",}'<|\"|>,old_": 1,
+   "odd argument keys: \"alias_priority\",\"json_schema_extra\",\"se": 1,
+   "odd argument keys: type) or not isinstance(annotation, str)": 1,
+   "odd argument keys: str] = {}\",allow_multiple,str]] = None\",": 1,
+   "odd argument keys: *,\\n        default_factory,Any], None] ": 1,
+   "odd argument keys: \\\"serialization\\\"] = \\\"serialization\\\"\",": 1,
+   "odd argument keys: ](https": 1,
+   "odd argument keys: \"\n\"                stack=async_exit_stac": 1,
+   "odd argument keys: \"\n\"            solved = await solve_gene": 1,
+   "odd argument keys: ] = Field(default=None, alias=\\\"$ref\\\")\"": 1,
+   "odd argument keys: \\\"type\\\",\\n    },\\n\",old_string,},\\n    ": 1,
+   "odd argument keys: None] = 1,\n        # TODO,None] = _Unset": 1,
+   "odd argument keys: ] = Field(default=None)\",old_string": 1,
+   "odd argument keys: Any,\n    Dict,\n    MutableMapping,\n    O": 1,
+   "odd argument keys: ]\",old_string=\"    origin_type = get_ori": 1,
+   "odd argument keys: \"\"\",allow_multiple,\",old_string,deque,fr": 1,
+   "odd argument keys: Doc(\\\"An optional path prefix for the ro": 1,
+   "odd argument keys: I used a mix of single and double quotes": 1,
+   "odd argument keys: \",allow_multiple,\",old_string": 1,
+   "odd argument keys: end_line,receive, send)\n                ": 1,
+   "odd argument keys: \\\"__globals__\\\", {})\n    return get_type": 1,
+   "odd argument keys: fastapi/routing.py<|\"|>,new_string": 1
+  },
+  "failure_rate_%": 56.2,
+  "failure_by_old_string_feature": {
+   "triple_quote": {
+    "calls_with": 90,
+    "fail_%_with": 83.3,
+    "fail_%_without": 53.7
+   },
+   "backslash": {
+    "calls_with": 218,
+    "fail_%_with": 96.3,
+    "fail_%_without": 46.0
+   },
+   "multiline": {
+    "calls_with": 729,
+    "fail_%_with": 55.4,
+    "fail_%_without": 57.8
+   },
+   "long(>400)": {
+    "calls_with": 153,
+    "fail_%_with": 75.2,
+    "fail_%_without": 53.0
+   },
+   "short(<40)": {
+    "calls_with": 171,
+    "fail_%_with": 62.0,
+    "fail_%_without": 55.1
+   }
+  },
+  "why_old_string_not_found": {
+   "near miss (similarity >= 0.9)": 126,
+   "far from anything in the file (<0.7)": 113,
+   "escape sequences copied (backslash-n, backslash-quote, ...)": 78,
+   "partial (0.7-0.9)": 71,
+   "file not read in this conversation": 42,
+   "old_string IS in the file as shown (changed by an earlier edit, or window/uniqueness issue)": 24
+  },
+  "identical_consecutive_repeats": 135,
+  "repeats_that_failed": 132,
+  "tasks_by_failed_edits": {
+   "0": {
+    "tasks": 203,
+    "resolved": 41
+   },
+   "1": {
+    "tasks": 61,
+    "resolved": 6
+   },
+   "2": {
+    "tasks": 30,
+    "resolved": 1
+   },
+   "3": {
+    "tasks": 26,
+    "resolved": 2
+   },
+   "4+": {
+    "tasks": 76,
+    "resolved": 0
+   }
+  },
+  "scorer_task_killers": {},
+  "tasks_with_killer": 0,
+  "empty_patch_tasks": 36,
+  "empty_patch_breakdown": {
+   "no edit attempted": 3,
+   "edit attempted, none applied": 32,
+   "some edit applied but patch empty": 1,
+   "skill called": 0,
+   "submit_patch called": 36,
+   "median calls": 11
+  },
+  "empty_last_call_names": {
+   "submit_patch": 36
+  }
+ },
+ "empty": [
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "calls": 14,
+   "edits_attempted": 6,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "calls": 13,
+   "edits_attempted": 6,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14258",
+   "calls": 7,
+   "edits_attempted": 1,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "run_command",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "calls": 8,
+   "edits_attempted": 5,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14459",
+   "calls": 8,
+   "edits_attempted": 4,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13537",
+   "calls": 9,
+   "edits_attempted": 3,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "run_command",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14616",
+   "calls": 7,
+   "edits_attempted": 0,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "run_command",
+    "read_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "calls": 11,
+   "edits_attempted": 5,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14962",
+   "calls": 13,
+   "edits_attempted": 4,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "read_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14873",
+   "calls": 8,
+   "edits_attempted": 4,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14262",
+   "calls": 4,
+   "edits_attempted": 3,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "calls": 7,
+   "edits_attempted": 5,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13713",
+   "calls": 11,
+   "edits_attempted": 4,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "read_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "calls": 11,
+   "edits_attempted": 6,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "calls": 14,
+   "edits_attempted": 8,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14448",
+   "calls": 8,
+   "edits_attempted": 4,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "calls": 22,
+   "edits_attempted": 8,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "read_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "calls": 15,
+   "edits_attempted": 6,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "run_command",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14430",
+   "calls": 15,
+   "edits_attempted": 3,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "calls": 14,
+   "edits_attempted": 8,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "calls": 9,
+   "edits_attempted": 5,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14873",
+   "calls": 14,
+   "edits_attempted": 0,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "read_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14487",
+   "calls": 5,
+   "edits_attempted": 4,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14455",
+   "calls": 19,
+   "edits_attempted": 10,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "calls": 8,
+   "edits_attempted": 5,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "calls": 18,
+   "edits_attempted": 7,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13537",
+   "calls": 1,
+   "edits_attempted": 0,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "calls": 9,
+   "edits_attempted": 5,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "calls": 7,
+   "edits_attempted": 6,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7309",
+   "calls": 12,
+   "edits_attempted": 3,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14873",
+   "calls": 15,
+   "edits_attempted": 4,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "run_command",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14258",
+   "calls": 9,
+   "edits_attempted": 4,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14794",
+   "calls": 6,
+   "edits_attempted": 5,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "calls": 17,
+   "edits_attempted": 8,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "calls": 13,
+   "edits_attempted": 6,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "run_command",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_13713",
+   "calls": 13,
+   "edits_attempted": 4,
+   "edits_ok": 2,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  }
+ ],
+ "kill": []
+}

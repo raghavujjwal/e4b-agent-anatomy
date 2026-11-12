@@ -1,0 +1,2719 @@
+{
+ "report": {
+  "tasks": 128,
+  "single_file_tasks": 90,
+  "content": {
+   "all": {
+    "n": 90,
+    "recall@1": 28.9,
+    "recall@3": 43.3,
+    "recall@5": 54.4,
+    "recall@10": 72.2
+   },
+   "dev66": {
+    "n": 44,
+    "recall@1": 36.4,
+    "recall@3": 45.5,
+    "recall@5": 59.1,
+    "recall@10": 75.0
+   },
+   "short<300": {
+    "n": 39,
+    "recall@1": 12.8,
+    "recall@3": 23.1,
+    "recall@5": 38.5,
+    "recall@10": 53.8
+   },
+   "long": {
+    "n": 51,
+    "recall@1": 41.2,
+    "recall@3": 58.8,
+    "recall@5": 66.7,
+    "recall@10": 86.3
+   },
+   "multi_any_gold@5": {
+    "n": 38,
+    "%": 68.4
+   }
+  },
+  "path": {
+   "all": {
+    "n": 90,
+    "recall@1": 20.0,
+    "recall@3": 32.2,
+    "recall@5": 36.7,
+    "recall@10": 46.7
+   },
+   "dev66": {
+    "n": 44,
+    "recall@1": 11.4,
+    "recall@3": 20.5,
+    "recall@5": 27.3,
+    "recall@10": 45.5
+   },
+   "short<300": {
+    "n": 39,
+    "recall@1": 12.8,
+    "recall@3": 23.1,
+    "recall@5": 30.8,
+    "recall@10": 41.0
+   },
+   "long": {
+    "n": 51,
+    "recall@1": 25.5,
+    "recall@3": 39.2,
+    "recall@5": 41.2,
+    "recall@10": 51.0
+   },
+   "multi_any_gold@5": {
+    "n": 38,
+    "%": 34.2
+   }
+  },
+  "symbols": {
+   "all": {
+    "n": 90,
+    "recall@1": 45.6,
+    "recall@3": 57.8,
+    "recall@5": 63.3,
+    "recall@10": 70.0
+   },
+   "dev66": {
+    "n": 44,
+    "recall@1": 34.1,
+    "recall@3": 45.5,
+    "recall@5": 54.5,
+    "recall@10": 63.6
+   },
+   "short<300": {
+    "n": 39,
+    "recall@1": 38.5,
+    "recall@3": 51.3,
+    "recall@5": 56.4,
+    "recall@10": 59.0
+   },
+   "long": {
+    "n": 51,
+    "recall@1": 51.0,
+    "recall@3": 62.7,
+    "recall@5": 68.6,
+    "recall@10": 78.4
+   },
+   "multi_any_gold@5": {
+    "n": 38,
+    "%": 71.1
+   }
+  },
+  "best_ranker": "symbols",
+  "verdict": "BORDERLINE: decide by hand [recall@5 63.3% single-file, 56.4% on short issues]"
+ },
+ "rows": [
+  {
+   "task": "fastapi_15588",
+   "n_gold": 1,
+   "n_cand": 520,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     3
+    ],
+    "path": [
+     15
+    ],
+    "symbols": [
+     2
+    ]
+   }
+  },
+  {
+   "task": "fastapi_15589",
+   "n_gold": 1,
+   "n_cand": 520,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     7
+    ],
+    "path": [
+     464
+    ],
+    "symbols": [
+     70
+    ]
+   }
+  },
+  {
+   "task": "fastapi_15030",
+   "n_gold": 9,
+   "n_cand": 513,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     12,
+     55,
+     58
+    ],
+    "path": [
+     19,
+     20,
+     43
+    ],
+    "symbols": [
+     9,
+     41,
+     55
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14962",
+   "n_gold": 3,
+   "n_cand": 506,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     2,
+     3,
+     177
+    ],
+    "path": [
+     42,
+     441,
+     470
+    ],
+    "symbols": [
+     2,
+     50,
+     70
+    ]
+   }
+  },
+  {
+   "task": "fastapi_15280",
+   "n_gold": 2,
+   "n_cand": 520,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     31
+    ],
+    "path": [
+     454
+    ],
+    "symbols": [
+     3
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14964",
+   "n_gold": 1,
+   "n_cand": 506,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_15023",
+   "n_gold": 1,
+   "n_cand": 513,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     4
+    ],
+    "path": [
+     6
+    ],
+    "symbols": [
+     4
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14986",
+   "n_gold": 2,
+   "n_cand": 508,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1,
+     3
+    ],
+    "path": [
+     12,
+     461
+    ],
+    "symbols": [
+     1,
+     3
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14978",
+   "n_gold": 3,
+   "n_cand": 506,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     16,
+     29
+    ],
+    "path": [
+     443,
+     470
+    ],
+    "symbols": [
+     13,
+     24
+    ]
+   }
+  },
+  {
+   "task": "requests_7505",
+   "n_gold": 2,
+   "n_cand": 22,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1,
+     4
+    ],
+    "path": [
+     7,
+     17
+    ],
+    "symbols": [
+     1,
+     20
+    ]
+   }
+  },
+  {
+   "task": "requests_7502",
+   "n_gold": 1,
+   "n_cand": 22,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     17
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "requests_7433",
+   "n_gold": 1,
+   "n_cand": 22,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     17
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "requests_7427",
+   "n_gold": 1,
+   "n_cand": 22,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     18
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "requests_7315",
+   "n_gold": 1,
+   "n_cand": 21,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     2
+    ],
+    "path": [
+     3
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "requests_7328",
+   "n_gold": 1,
+   "n_cand": 21,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     18
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "requests_7309",
+   "n_gold": 1,
+   "n_cand": 21,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     16
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "requests_7205",
+   "n_gold": 1,
+   "n_cand": 21,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     17
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_4070",
+   "n_gold": 9,
+   "n_cand": 146,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1,
+     2,
+     7,
+     15,
+     27,
+     30,
+     32,
+     33,
+     77
+    ],
+    "path": [
+     1,
+     3,
+     5,
+     8,
+     9,
+     10,
+     16,
+     18,
+     62
+    ],
+    "symbols": [
+     1,
+     4,
+     5,
+     6,
+     11,
+     15,
+     18,
+     20,
+     42
+    ]
+   }
+  },
+  {
+   "task": "rich_4077",
+   "n_gold": 1,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     31
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_4079",
+   "n_gold": 1,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     3
+    ],
+    "path": [
+     41
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_4076",
+   "n_gold": 1,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     139
+    ],
+    "path": [
+     17
+    ],
+    "symbols": [
+     84
+    ]
+   }
+  },
+  {
+   "task": "rich_4075",
+   "n_gold": 1,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     7
+    ],
+    "path": [
+     23
+    ],
+    "symbols": [
+     5
+    ]
+   }
+  },
+  {
+   "task": "rich_4006",
+   "n_gold": 1,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     2
+    ],
+    "path": [
+     20
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14258",
+   "n_gold": 1,
+   "n_cand": 685,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     4
+    ],
+    "path": [
+     15
+    ],
+    "symbols": [
+     41
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14851",
+   "n_gold": 1,
+   "n_cand": 685,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     10
+    ],
+    "path": [
+     16
+    ],
+    "symbols": [
+     2
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14873",
+   "n_gold": 1,
+   "n_cand": 685,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     2
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_13920",
+   "n_gold": 1,
+   "n_cand": 685,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     14
+    ],
+    "path": [
+     627
+    ],
+    "symbols": [
+     20
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14794",
+   "n_gold": 1,
+   "n_cand": 685,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     631
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14786",
+   "n_gold": 1,
+   "n_cand": 685,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     30
+    ],
+    "path": [
+     3
+    ],
+    "symbols": [
+     2
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14492",
+   "n_gold": 1,
+   "n_cand": 685,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     316
+    ],
+    "symbols": [
+     318
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14479",
+   "n_gold": 1,
+   "n_cand": 622,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14463",
+   "n_gold": 1,
+   "n_cand": 683,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     2
+    ]
+   }
+  },
+  {
+   "task": "fastapi_12942",
+   "n_gold": 1,
+   "n_cand": 742,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     6
+    ],
+    "path": [
+     8
+    ],
+    "symbols": [
+     6
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14099",
+   "n_gold": 5,
+   "n_cand": 739,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     7,
+     21
+    ],
+    "path": [
+     688,
+     705
+    ],
+    "symbols": [
+     160,
+     194
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14609",
+   "n_gold": 20,
+   "n_cand": 690,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1,
+     2,
+     5,
+     6,
+     12,
+     15,
+     17,
+     19,
+     23,
+     24,
+     28,
+     31,
+     58,
+     71,
+     179,
+     237,
+     240,
+     243,
+     253,
+     254
+    ],
+    "path": [
+     1,
+     12,
+     17,
+     18,
+     23,
+     24,
+     25,
+     27,
+     30,
+     35,
+     38,
+     39,
+     40,
+     43,
+     54,
+     55,
+     60,
+     62,
+     550,
+     551
+    ],
+    "symbols": [
+     1,
+     2,
+     5,
+     8,
+     9,
+     13,
+     18,
+     20,
+     21,
+     23,
+     24,
+     26,
+     38,
+     49,
+     57,
+     97,
+     98,
+     99,
+     550,
+     551
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14372",
+   "n_gold": 2,
+   "n_cand": 761,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     12,
+     232
+    ],
+    "path": [
+     20,
+     36
+    ],
+    "symbols": [
+     2,
+     103
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14349",
+   "n_gold": 1,
+   "n_cand": 761,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     2
+    ],
+    "path": [
+     10
+    ],
+    "symbols": [
+     76
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14512",
+   "n_gold": 1,
+   "n_cand": 789,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     106
+    ],
+    "path": [
+     4
+    ],
+    "symbols": [
+     127
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14487",
+   "n_gold": 1,
+   "n_cand": 789,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     74
+    ],
+    "path": [
+     4
+    ],
+    "symbols": [
+     2
+    ]
+   }
+  },
+  {
+   "task": "fastapi_11355",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     26
+    ],
+    "path": [
+     706
+    ],
+    "symbols": [
+     12
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14485",
+   "n_gold": 1,
+   "n_cand": 789,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     36
+    ],
+    "path": [
+     28
+    ],
+    "symbols": [
+     48
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14482",
+   "n_gold": 1,
+   "n_cand": 789,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     45
+    ],
+    "path": [
+     5
+    ],
+    "symbols": [
+     92
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14306",
+   "n_gold": 2,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1,
+     4
+    ],
+    "path": [
+     1,
+     25
+    ],
+    "symbols": [
+     1,
+     5
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14458",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     33
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14459",
+   "n_gold": 3,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     4,
+     8,
+     11
+    ],
+    "path": [
+     8,
+     22,
+     23
+    ],
+    "symbols": [
+     4,
+     5,
+     17
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14448",
+   "n_gold": 2,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     4,
+     11
+    ],
+    "path": [
+     5,
+     6
+    ],
+    "symbols": [
+     3,
+     8
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14455",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     15
+    ],
+    "path": [
+     12
+    ],
+    "symbols": [
+     9
+    ]
+   }
+  },
+  {
+   "task": "fastapi_9753",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     8
+    ],
+    "path": [
+     35
+    ],
+    "symbols": [
+     5
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14430",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     7
+    ],
+    "path": [
+     14
+    ],
+    "symbols": [
+     8
+    ]
+   }
+  },
+  {
+   "task": "fastapi_5077",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_9555",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     4
+    ],
+    "path": [
+     12
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14361",
+   "n_gold": 1,
+   "n_cand": 761,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     5
+    ],
+    "path": [
+     3
+    ],
+    "symbols": [
+     47
+    ]
+   }
+  },
+  {
+   "task": "fastapi_13207",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     7
+    ],
+    "path": [
+     25
+    ],
+    "symbols": [
+     58
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14360",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     710
+    ],
+    "symbols": [
+     6
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14356",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     162
+    ],
+    "symbols": [
+     6
+    ]
+   }
+  },
+  {
+   "task": "fastapi_5624",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     9
+    ],
+    "path": [
+     713
+    ],
+    "symbols": [
+     718
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14419",
+   "n_gold": 2,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1,
+     3
+    ],
+    "path": [
+     2,
+     3
+    ],
+    "symbols": [
+     7,
+     11
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14301",
+   "n_gold": 1,
+   "n_cand": 761,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     2
+    ],
+    "path": [
+     9
+    ],
+    "symbols": [
+     2
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14262",
+   "n_gold": 10,
+   "n_cand": 758,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1,
+     4,
+     5,
+     22,
+     107,
+     124,
+     571
+    ],
+    "path": [
+     47,
+     48,
+     143,
+     713,
+     727,
+     730,
+     735
+    ],
+    "symbols": [
+     2,
+     6,
+     8,
+     9,
+     42,
+     44,
+     231
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14266",
+   "n_gold": 1,
+   "n_cand": 758,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     41
+    ],
+    "path": [
+     40
+    ],
+    "symbols": [
+     103
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14246",
+   "n_gold": 1,
+   "n_cand": 758,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     7
+    ],
+    "path": [
+     6
+    ],
+    "symbols": [
+     77
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14186",
+   "n_gold": 10,
+   "n_cand": 757,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     13,
+     18,
+     27,
+     43,
+     51,
+     69,
+     78,
+     177,
+     249
+    ],
+    "path": [
+     1,
+     13,
+     14,
+     20,
+     31,
+     33,
+     34,
+     35,
+     38
+    ],
+    "symbols": [
+     3,
+     6,
+     16,
+     28,
+     76,
+     92,
+     105,
+     160,
+     210
+    ]
+   }
+  },
+  {
+   "task": "fastapi_9425",
+   "n_gold": 1,
+   "n_cand": 739,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     4
+    ],
+    "path": [
+     686
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_13713",
+   "n_gold": 2,
+   "n_cand": 739,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1,
+     11
+    ],
+    "path": [
+     7,
+     29
+    ],
+    "symbols": [
+     3,
+     9
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14077",
+   "n_gold": 3,
+   "n_cand": 739,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1,
+     2,
+     4
+    ],
+    "path": [
+     37,
+     41,
+     318
+    ],
+    "symbols": [
+     4,
+     80,
+     348
+    ]
+   }
+  },
+  {
+   "task": "rich_3718",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     19
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3934",
+   "n_gold": 2,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     32,
+     45
+    ],
+    "path": [
+     1,
+     2
+    ],
+    "symbols": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "task": "rich_3953",
+   "n_gold": 1,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     127
+    ],
+    "path": [
+     20
+    ],
+    "symbols": [
+     100
+    ]
+   }
+  },
+  {
+   "task": "rich_3944",
+   "n_gold": 1,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     126
+    ],
+    "path": [
+     20
+    ],
+    "symbols": [
+     99
+    ]
+   }
+  },
+  {
+   "task": "rich_3942",
+   "n_gold": 2,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1,
+     2
+    ],
+    "path": [
+     1,
+     2
+    ],
+    "symbols": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "task": "rich_3938",
+   "n_gold": 2,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     5,
+     70
+    ],
+    "path": [
+     24,
+     54
+    ],
+    "symbols": [
+     13,
+     15
+    ]
+   }
+  },
+  {
+   "task": "rich_3882",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     2
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3894",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     3
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3935",
+   "n_gold": 1,
+   "n_cand": 146,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     37
+    ],
+    "path": [
+     61
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3905",
+   "n_gold": 1,
+   "n_cand": 146,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     2
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     2
+    ]
+   }
+  },
+  {
+   "task": "rich_3930",
+   "n_gold": 26,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     2,
+     5,
+     73
+    ],
+    "path": [
+     3,
+     9,
+     27
+    ],
+    "symbols": [
+     2,
+     14,
+     43
+    ]
+   }
+  },
+  {
+   "task": "httpx_3672",
+   "n_gold": 7,
+   "n_cand": 32,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     9
+    ],
+    "path": [
+     1,
+     2,
+     13,
+     14,
+     25,
+     26,
+     27
+    ],
+    "symbols": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     7,
+     10
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14791",
+   "n_gold": 1,
+   "n_cand": 685,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_15800",
+   "n_gold": 8,
+   "n_cand": 521,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     10,
+     12
+    ],
+    "path": [
+     460,
+     487
+    ],
+    "symbols": [
+     19,
+     27
+    ]
+   }
+  },
+  {
+   "task": "fastapi_15785",
+   "n_gold": 2,
+   "n_cand": 521,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     6,
+     11
+    ],
+    "path": [
+     38,
+     62
+    ],
+    "symbols": [
+     3,
+     6
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14371",
+   "n_gold": 4,
+   "n_cand": 789,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     5,
+     9,
+     20,
+     23
+    ],
+    "path": [
+     4,
+     13,
+     28,
+     40
+    ],
+    "symbols": [
+     25,
+     28,
+     34,
+     46
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14605",
+   "n_gold": 7,
+   "n_cand": 690,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     2,
+     3,
+     4,
+     14,
+     21,
+     47,
+     57
+    ],
+    "path": [
+     22,
+     640,
+     643,
+     655,
+     657,
+     660,
+     671
+    ],
+    "symbols": [
+     3,
+     5,
+     41,
+     77,
+     659,
+     661,
+     674
+    ]
+   }
+  },
+  {
+   "task": "fastapi_15763",
+   "n_gold": 1,
+   "n_cand": 521,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     8
+    ],
+    "path": [
+     45
+    ],
+    "symbols": [
+     39
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14583",
+   "n_gold": 2,
+   "n_cand": 622,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     38,
+     43
+    ],
+    "path": [
+     566,
+     587
+    ],
+    "symbols": [
+     20,
+     21
+    ]
+   }
+  },
+  {
+   "task": "fastapi_15745",
+   "n_gold": 4,
+   "n_cand": 521,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1,
+     2,
+     4,
+     30
+    ],
+    "path": [
+     62,
+     72,
+     85,
+     96
+    ],
+    "symbols": [
+     1,
+     2,
+     5,
+     27
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14297",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     27
+    ],
+    "path": [
+     6
+    ],
+    "symbols": [
+     4
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14303",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     6
+    ],
+    "symbols": [
+     5
+    ]
+   }
+  },
+  {
+   "task": "fastapi_13537",
+   "n_gold": 1,
+   "n_cand": 763,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     51
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14953",
+   "n_gold": 4,
+   "n_cand": 505,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     5,
+     13
+    ],
+    "path": [
+     453,
+     457
+    ],
+    "symbols": [
+     2,
+     12
+    ]
+   }
+  },
+  {
+   "task": "fastapi_13786",
+   "n_gold": 11,
+   "n_cand": 761,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1,
+     3,
+     7,
+     15,
+     27,
+     30,
+     31,
+     32,
+     33
+    ],
+    "path": [
+     1,
+     2,
+     6,
+     7,
+     152,
+     153,
+     154,
+     170,
+     171
+    ],
+    "symbols": [
+     1,
+     2,
+     4,
+     11,
+     48,
+     49,
+     50,
+     52,
+     53
+    ]
+   }
+  },
+  {
+   "task": "fastapi_14616",
+   "n_gold": 1,
+   "n_cand": 685,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     4
+    ],
+    "path": [
+     72
+    ],
+    "symbols": [
+     12
+    ]
+   }
+  },
+  {
+   "task": "fastapi_11194",
+   "n_gold": 1,
+   "n_cand": 739,
+   "short": false,
+   "dev": true,
+   "ranks": {
+    "content": [
+     11
+    ],
+    "path": [
+     35
+    ],
+    "symbols": [
+     38
+    ]
+   }
+  },
+  {
+   "task": "requests_6757",
+   "n_gold": 2,
+   "n_cand": 21,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1,
+     10
+    ],
+    "path": [
+     11,
+     21
+    ],
+    "symbols": [
+     4,
+     12
+    ]
+   }
+  },
+  {
+   "task": "requests_6629",
+   "n_gold": 1,
+   "n_cand": 21,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     2
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "requests_6644",
+   "n_gold": 1,
+   "n_cand": 21,
+   "short": true,
+   "dev": true,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     7
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "requests_6589",
+   "n_gold": 1,
+   "n_cand": 21,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     16
+    ],
+    "symbols": [
+     2
+    ]
+   }
+  },
+  {
+   "task": "requests_6592",
+   "n_gold": 1,
+   "n_cand": 21,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3180",
+   "n_gold": 2,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     25,
+     46
+    ],
+    "path": [
+     64,
+     70
+    ],
+    "symbols": [
+     11,
+     32
+    ]
+   }
+  },
+  {
+   "task": "rich_3486",
+   "n_gold": 3,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1,
+     3,
+     12
+    ],
+    "path": [
+     2,
+     60,
+     75
+    ],
+    "symbols": [
+     1,
+     45,
+     69
+    ]
+   }
+  },
+  {
+   "task": "rich_3777",
+   "n_gold": 2,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1,
+     2
+    ],
+    "path": [
+     77,
+     81
+    ],
+    "symbols": [
+     25,
+     88
+    ]
+   }
+  },
+  {
+   "task": "rich_3468",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     26
+    ],
+    "path": [
+     23
+    ],
+    "symbols": [
+     78
+    ]
+   }
+  },
+  {
+   "task": "rich_3782",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     5
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3772",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     21
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3296",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     4
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3675",
+   "n_gold": 2,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     6,
+     15
+    ],
+    "path": [
+     23,
+     27
+    ],
+    "symbols": [
+     1,
+     24
+    ]
+   }
+  },
+  {
+   "task": "rich_3676",
+   "n_gold": 2,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     4,
+     55
+    ],
+    "path": [
+     76,
+     117
+    ],
+    "symbols": [
+     6,
+     83
+    ]
+   }
+  },
+  {
+   "task": "rich_3518",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     2
+    ],
+    "path": [
+     5
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3535",
+   "n_gold": 2,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     3,
+     5
+    ],
+    "path": [
+     68,
+     106
+    ],
+    "symbols": [
+     5,
+     111
+    ]
+   }
+  },
+  {
+   "task": "rich_3521",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     4
+    ],
+    "path": [
+     2
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3506",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     2
+    ],
+    "path": [
+     2
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3480",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     25
+    ],
+    "path": [
+     60
+    ],
+    "symbols": [
+     3
+    ]
+   }
+  },
+  {
+   "task": "rich_3472",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     6
+    ],
+    "path": [
+     44
+    ],
+    "symbols": [
+     2
+    ]
+   }
+  },
+  {
+   "task": "rich_3454",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     3
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3471",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     17
+    ],
+    "path": [
+     61
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3470",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     5
+    ],
+    "path": [
+     23
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3469",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     34
+    ],
+    "path": [
+     37
+    ],
+    "symbols": [
+     37
+    ]
+   }
+  },
+  {
+   "task": "rich_3052",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3278",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     9
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     10
+    ]
+   }
+  },
+  {
+   "task": "rich_2943",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     7
+    ],
+    "path": [
+     109
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_2725",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     2
+    ],
+    "path": [
+     3
+    ],
+    "symbols": [
+     12
+    ]
+   }
+  },
+  {
+   "task": "rich_3105",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     9
+    ],
+    "path": [
+     47
+    ],
+    "symbols": [
+     62
+    ]
+   }
+  },
+  {
+   "task": "rich_3130",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     6
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3043",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     8
+    ],
+    "path": [
+     2
+    ],
+    "symbols": [
+     2
+    ]
+   }
+  },
+  {
+   "task": "rich_3067",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     22
+    ],
+    "path": [
+     82
+    ],
+    "symbols": [
+     95
+    ]
+   }
+  },
+  {
+   "task": "rich_3006",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     22
+    ],
+    "path": [
+     2
+    ],
+    "symbols": [
+     18
+    ]
+   }
+  },
+  {
+   "task": "rich_3064",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     7
+    ],
+    "path": [
+     1
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  },
+  {
+   "task": "rich_3063",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": true,
+   "dev": false,
+   "ranks": {
+    "content": [
+     13
+    ],
+    "path": [
+     38
+    ],
+    "symbols": [
+     69
+    ]
+   }
+  },
+  {
+   "task": "rich_3061",
+   "n_gold": 1,
+   "n_cand": 124,
+   "short": false,
+   "dev": false,
+   "ranks": {
+    "content": [
+     1
+    ],
+    "path": [
+     2
+    ],
+    "symbols": [
+     1
+    ]
+   }
+  }
+ ]
+}

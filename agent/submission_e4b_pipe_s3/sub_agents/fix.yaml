@@ -1,0 +1,15 @@
+# Stage 2. include_contents: none, so it starts without the thoughts and tool output of stage 1; its instruction carries the problem statement and the note.
+# The tools are the control's.
+name: fix
+model: gemma-4-e4b-it-qat-w4a16-ct
+description: Makes the edit described in the hand-over note and submits.
+instruction: !include ../prompts/fix.md
+include_contents: none
+tools:
+  - read_file
+  - edit_file
+  - write_file
+  - run_command
+  - get_status
+  - submit_patch
+generate_content_config: !include ../configs/sampling.yaml

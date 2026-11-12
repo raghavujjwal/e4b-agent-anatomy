@@ -1,0 +1,24 @@
+refused edits with a parsed old_string: 236 | skipped: {'unparsed': 10}
+
+   5    2.1%  A. plain un-escape makes it exact
+   2    0.8%  B. un-escape plus whitespace or indent fix
+  44   18.6%  D. most lines exist (>=80%), text differs
+  37   15.7%  E. some lines exist (30-80%)
+  32   13.6%  F. little or nothing exists (<30%)
+  97   41.1%  ambiguous (matches several places)
+  12    5.1%  exact text present (other cause)
+   7    3.0%  file text not in prompt
+
+escape kinds inside class A: {'newline': 5, 'quote': 1, 'backslash': 0}
+share of ALL refused edits whose old_string contains a literal backslash-n: 15%, a backslash-quote: 8%, any backslash: 26%
+
+examples of A. plain un-escape makes it exact
+    '    @cached_property\n    def is_gen_callable(self) -> bool:\n        if self.call is None:\n            return False  # pragma: no cover\n        if inspect.isgene'
+    '    @cached_property\n    def is_gen_callable(self) -> bool:\n        if self.call is None:\n            return False  # pragma: no cover\n        if inspect.isgene'
+    '    @cached_property\n    def is_gen_callable(self) -> bool:\n        if self.call is None:\n            return False  # pragma: no cover\n        if inspect.isgene'
+
+examples of B. un-escape plus whitespace or indent fix
+    '    <link rel="shortcut icon" href="{swagger_favicon_url}">\n    <title>{title}</title>\n    </head>\n    <body\n'
+    '    <link rel="shortcut icon" href="{swagger_favicon_url}">\n    <title>{title}</title>\n    </head>\n    <body\n'
+
+examples of C. whitespace or indent only

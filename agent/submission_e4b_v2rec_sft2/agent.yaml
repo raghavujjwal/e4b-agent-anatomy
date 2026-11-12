@@ -1,0 +1,15 @@
+# E4B baseline: the teammates' flat-search arm (31B reference) with ONLY the model alias changed, so the first
+# measurement isolates the model. Sampling, prompt and budgets are separate experiments after it.
+name: swe_agent
+model: gemma-4-e4b-it-qat-w4a16-ct
+adapter: e4b_sft_v2
+description: Resolves an issue with one minimal source edit.
+instruction: !include prompts/flat_search.md
+tools:
+  - read_file
+  - edit_file
+  - write_file
+  - run_command
+  - get_status
+  - submit_patch
+generate_content_config: !include configs/sampling.yaml

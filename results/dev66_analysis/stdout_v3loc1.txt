@@ -1,0 +1,103 @@
+{
+ "edit_calls": 164,
+ "outcomes": {
+  "ok": 74,
+  "old_string not found": 44,
+  "ambiguous": 13,
+  "odd argument keys: new_string=\"            if index_of_equa": 5,
+  "odd argument keys: new_string=\"        url_hostname = parse": 4,
+  "odd argument keys: new_string=\"from typing_extensions impor": 3,
+  "odd argument keys: \\\"summary\\\") and self.summary is not Non": 3,
+  "odd argument keys: new_string=\"import html\\ntry,old_string=": 2,
+  "odd argument keys: new_string=\"    flat_dependant = Dependa": 2,
+  "other: FileEditError old_string must be non-empty": 1,
+  "odd argument keys: description=\\\"FastAPI response metadata,": 1,
+  "odd argument keys: \",allow_multiple,new_string=\"import html": 1,
+  "odd argument keys: new_string=\"                key = param[": 1,
+  "odd argument keys: Doc(\\\"An optional path prefix for the ro": 1,
+  "odd argument keys: globalns, None)\", old_string": 1,
+  "odd argument keys: fastapi/dependencies/models.py<|\"|>,new_": 1,
+  "odd argument keys: new_string=\"        scopes = set(self.pa": 1,
+  "odd argument keys: ],]\n        # This doesn't use a set to ": 1,
+  "odd argument keys: \\\"__wrapped__\\\", call), \\\"__globals__\\\",": 1,
+  "odd argument keys: \\n        name=name,\\n        path=path,": 1,
+  "odd argument keys: \"__globals__\", {})\n    return get_typed_": 1,
+  "odd argument keys: title": 1,
+  "odd argument keys: None] = _Unset,\\n        decimal_places,": 1
+ },
+ "failure_rate_%": 54.9,
+ "failure_by_old_string_feature": {
+  "triple_quote": {
+   "calls_with": 15,
+   "fail_%_with": 73.3,
+   "fail_%_without": 53.0
+  },
+  "backslash": {
+   "calls_with": 14,
+   "fail_%_with": 92.9,
+   "fail_%_without": 51.3
+  },
+  "multiline": {
+   "calls_with": 87,
+   "fail_%_with": 42.5,
+   "fail_%_without": 68.8
+  },
+  "long(>400)": {
+   "calls_with": 19,
+   "fail_%_with": 63.2,
+   "fail_%_without": 53.8
+  },
+  "short(<40)": {
+   "calls_with": 53,
+   "fail_%_with": 73.6,
+   "fail_%_without": 45.9
+  }
+ },
+ "why_old_string_not_found": {
+  "far from anything in the file (<0.7)": 12,
+  "near miss (similarity >= 0.9)": 11,
+  "file not read in this conversation": 11,
+  "escape sequences copied (backslash-n, backslash-quote, ...)": 5,
+  "partial (0.7-0.9)": 3,
+  "old_string IS in the file as shown (changed by an earlier edit, or window/uniqueness issue)": 2
+ },
+ "identical_consecutive_repeats": 11,
+ "repeats_that_failed": 11,
+ "tasks_by_failed_edits": {
+  "0": {
+   "tasks": 37,
+   "resolved": 7
+  },
+  "1": {
+   "tasks": 9,
+   "resolved": 2
+  },
+  "2": {
+   "tasks": 7,
+   "resolved": 0
+  },
+  "3": {
+   "tasks": 4,
+   "resolved": 0
+  },
+  "4+": {
+   "tasks": 9,
+   "resolved": 0
+  }
+ },
+ "scorer_task_killers": {},
+ "tasks_with_killer": 0,
+ "empty_patch_tasks": 8,
+ "empty_patch_breakdown": {
+  "no edit attempted": 2,
+  "edit attempted, none applied": 6,
+  "some edit applied but patch empty": 0,
+  "skill called": 0,
+  "submit_patch called": 7,
+  "median calls": 13
+ },
+ "empty_last_call_names": {
+  "submit_patch": 7,
+  "read_file": 1
+ }
+}

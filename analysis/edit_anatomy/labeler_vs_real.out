@@ -1,0 +1,8 @@
+parse_generation    real ok  real error  real rejected
+call                    196         236              0
+malformed                 0           0             30
+unparsed                  3          10             25
+multi_call                0           1              0
+
+precision of `malformed` as 'the framework rejects it': 30/30
+real rejections that are `malformed`: 30/55

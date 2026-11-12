@@ -1,0 +1,15 @@
+# E4B line-range editing arm: the baseline (../submission_e4b) with edit_file replaced by the edit_lines skill and the
+# matching "Editing" section in the prompt. Sampling and budgets are the baseline's. See README.md.
+name: swe_agent
+model: gemma-4-e4b-it-qat-w4a16-ct
+description: Resolves an issue with one minimal source edit.
+instruction: !include prompts/flat_search.md
+skills:
+  - skills/edit_lines
+tools:
+  - read_file
+  - write_file
+  - run_command
+  - get_status
+  - submit_patch
+generate_content_config: !include configs/sampling.yaml

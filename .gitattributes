@@ -1,0 +1,2 @@
+# Shell scripts run inside WSL or Linux containers from a Windows working tree: keep LF endings whatever core.autocrlf says.
+*.sh text eol=lf

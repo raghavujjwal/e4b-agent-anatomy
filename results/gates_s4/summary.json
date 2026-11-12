@@ -1,0 +1,171 @@
+{
+ "base": {
+  "G3": {
+   "n": 201,
+   "no_call_%": 0.0,
+   "request_error_%": 0.0,
+   "by_recorded_tool": {
+    "edit_file": {
+     "n": 50,
+     "agree_%": 100.0,
+     "generated": {
+      "edit_file": 50
+     },
+     "mean_tokens": 846
+    },
+    "grep": {
+     "n": 1,
+     "agree_%": 100.0,
+     "generated": {
+      "grep": 1
+     },
+     "mean_tokens": 840
+    },
+    "read_file": {
+     "n": 50,
+     "agree_%": 100.0,
+     "generated": {
+      "read_file": 50
+     },
+     "mean_tokens": 228
+    },
+    "run_command": {
+     "n": 50,
+     "agree_%": 100.0,
+     "generated": {
+      "run_command": 50
+     },
+     "mean_tokens": 154
+    },
+    "submit_patch": {
+     "n": 50,
+     "agree_%": 100.0,
+     "generated": {
+      "submit_patch": 50
+     },
+     "mean_tokens": 208
+    }
+   }
+  },
+  "G4": {
+   "prefixes": 324,
+   "n": 324,
+   "tasks": 54,
+   "repeat_%": 29.9,
+   "reread_%": 17.0,
+   "repeat_se": 3.0,
+   "reread_se": 2.3,
+   "request_error_%": 0.0,
+   "kinds": {
+    "repeat": 97,
+    "reread": 55,
+    "edit": 120,
+    "other": 49,
+    "no_call": 3,
+    "malformed": 0,
+    "request_error": 0
+   }
+  },
+  "G5": {
+   "n": 525,
+   "well_formed_%": 98.9,
+   "length_%": 0.0,
+   "thought_%": 32.0,
+   "mean_tokens": 240,
+   "request_error_%": 0.0,
+   "reasons": {
+    "0": 3,
+    "2": 1,
+    "4": 1,
+    "arguments": 1
+   }
+  }
+ },
+ "replay": {
+  "G3": {
+   "n": 201,
+   "no_call_%": 0.0,
+   "request_error_%": 0.0,
+   "by_recorded_tool": {
+    "edit_file": {
+     "n": 50,
+     "agree_%": 100.0,
+     "generated": {
+      "edit_file": 50
+     },
+     "mean_tokens": 846
+    },
+    "grep": {
+     "n": 1,
+     "agree_%": 100.0,
+     "generated": {
+      "grep": 1
+     },
+     "mean_tokens": 840
+    },
+    "read_file": {
+     "n": 50,
+     "agree_%": 100.0,
+     "generated": {
+      "read_file": 50
+     },
+     "mean_tokens": 228
+    },
+    "run_command": {
+     "n": 50,
+     "agree_%": 100.0,
+     "generated": {
+      "run_command": 50
+     },
+     "mean_tokens": 154
+    },
+    "submit_patch": {
+     "n": 50,
+     "agree_%": 100.0,
+     "generated": {
+      "submit_patch": 50
+     },
+     "mean_tokens": 208
+    }
+   }
+  },
+  "G4": {
+   "prefixes": 324,
+   "n": 324,
+   "tasks": 54,
+   "repeat_%": 29.9,
+   "reread_%": 17.0,
+   "repeat_se": 3.0,
+   "reread_se": 2.3,
+   "request_error_%": 0.0,
+   "kinds": {
+    "repeat": 97,
+    "reread": 55,
+    "edit": 120,
+    "other": 49,
+    "no_call": 3,
+    "malformed": 0,
+    "request_error": 0
+   }
+  },
+  "G5": {
+   "n": 525,
+   "well_formed_%": 98.9,
+   "length_%": 0.0,
+   "thought_%": 32.0,
+   "mean_tokens": 240,
+   "request_error_%": 0.0,
+   "reasons": {
+    "0": 3,
+    "2": 1,
+    "4": 1,
+    "arguments": 1
+   }
+  },
+  "gates": {
+   "G3": [],
+   "G4": [],
+   "G5": []
+  }
+ }
+}

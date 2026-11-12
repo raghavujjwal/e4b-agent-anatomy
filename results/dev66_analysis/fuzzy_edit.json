@@ -1,0 +1,4667 @@
+{
+ "report": {
+  "not_found_edits": 463,
+  "file_not_read": 42,
+  "rescued_by_forgiving_tool": 164,
+  "rescued_%": 35.4,
+  "by_strategy": {
+   "escape": 63,
+   "space": 29,
+   "similar": 72
+  },
+  "rescued_vs_later_success": {
+   "other_region": 35,
+   "no_later_ok": 93,
+   "same_region": 36
+  },
+  "rescued_on_gold_file_%": 67.1,
+  "all_failures_on_gold_file_%": 65.7,
+  "wrong_place_risk_%_of_rescued_with_later_ok": 49.3,
+  "unresolved_runs": {
+   "runs": 346,
+   "with_a_not_found_edit": 132,
+   "with_rescuable_failure": 56
+  },
+  "resolved_runs": {
+   "runs": 50,
+   "with_a_not_found_edit": 5,
+   "with_rescuable_failure": 2
+  },
+  "unresolved_empty_patch_runs": {
+   "runs": 36,
+   "with_rescuable_failure": 8
+  }
+ },
+ "rows": [
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14986",
+   "resolved": false,
+   "file": "fastapi/openapi/docs.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7427",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_7205",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14794",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14794",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/params.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14099",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14306",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14306",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14306",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14306",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14458",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14459",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14459",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14459",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14459",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_9753",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_5077",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_9555",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_9555",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_9555",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_9555",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14360",
+   "resolved": false,
+   "file": "fastapi/params.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_14360",
+   "resolved": false,
+   "file": "fastapi/params.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "httpx_3672",
+   "resolved": false,
+   "file": "src/ahttpx/_parsers.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "same_region"
+  },
+  {
+   "run": "base1",
+   "task": "httpx_3672",
+   "resolved": false,
+   "file": "src/ahttpx/_parsers.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "httpx_3672",
+   "resolved": false,
+   "file": "src/ahttpx/_parsers.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "same_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13537",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13537",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13537",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/api_key.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/api_key.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_6644",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base1",
+   "task": "requests_6644",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14962",
+   "resolved": false,
+   "file": "fastapi/encoders.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14962",
+   "resolved": false,
+   "file": "fastapi/encoders.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14962",
+   "resolved": false,
+   "file": "fastapi/encoders.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14962",
+   "resolved": false,
+   "file": "fastapi/encoders.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15023",
+   "resolved": false,
+   "file": "docs/en/docs/advanced/stream-data.md",
+   "gold_file": false,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14964",
+   "resolved": false,
+   "file": "fastapi/responses.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14964",
+   "resolved": false,
+   "file": "fastapi/responses.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14964",
+   "resolved": false,
+   "file": "fastapi/responses.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14964",
+   "resolved": false,
+   "file": "fastapi/responses.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14978",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14978",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14978",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14978",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14986",
+   "resolved": false,
+   "file": "fastapi/openapi/docs.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14986",
+   "resolved": false,
+   "file": "fastapi/openapi/docs.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14986",
+   "resolved": false,
+   "file": "fastapi/openapi/docs.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14986",
+   "resolved": false,
+   "file": "fastapi/openapi/docs.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "requests_7427",
+   "resolved": true,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "requests_7315",
+   "resolved": false,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base2",
+   "task": "requests_7315",
+   "resolved": false,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base2",
+   "task": "requests_7315",
+   "resolved": false,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "requests_7315",
+   "resolved": false,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base2",
+   "task": "requests_7315",
+   "resolved": false,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13920",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "same_region"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13920",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "same_region"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14873",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14873",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14873",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14873",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/params.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14099",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14448",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14448",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14430",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "other_region"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14419",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14266",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_14266",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13537",
+   "resolved": true,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13537",
+   "resolved": true,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13537",
+   "resolved": true,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/api_key.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/api_key.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/api_key.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/api_key.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/api_key.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/api_key.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base2",
+   "task": "requests_6644",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15589",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15589",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15589",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14962",
+   "resolved": false,
+   "file": "fastapi/encoders.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14962",
+   "resolved": false,
+   "file": "fastapi/encoders.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14962",
+   "resolved": false,
+   "file": "fastapi/encoders.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14962",
+   "resolved": false,
+   "file": "fastapi/encoders.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "resolved": false,
+   "file": "fastapi/responses.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "resolved": false,
+   "file": "fastapi/responses.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "resolved": false,
+   "file": "fastapi/responses.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "resolved": false,
+   "file": "fastapi/responses.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "resolved": false,
+   "file": "fastapi/responses.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14964",
+   "resolved": false,
+   "file": "fastapi/responses.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "requests_7427",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "requests_7427",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14873",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14099",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14099",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14099",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/exception_handlers.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/exception_handlers.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/exception_handlers.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14306",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14448",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14448",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14448",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14448",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14430",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14266",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14266",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_14266",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/api_key.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/api_key.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "base3",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "fastapi/__init__.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15023",
+   "resolved": false,
+   "file": "docs/en/docs/advanced/stream-data.md",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15023",
+   "resolved": false,
+   "file": "docs/en/docs/advanced/stream-data.md",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15023",
+   "resolved": false,
+   "file": "docs/en/docs/advanced/stream-data.md",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14986",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "requests_7315",
+   "resolved": true,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14786",
+   "resolved": true,
+   "file": "fastapi/security/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14609",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14609",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14609",
+   "resolved": false,
+   "file": "fastapi/_compat/may_v1.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14306",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14306",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14306",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_9753",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14430",
+   "resolved": false,
+   "file": "fastapi/_compat/shared.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14430",
+   "resolved": false,
+   "file": "fastapi/_compat/shared.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14430",
+   "resolved": false,
+   "file": "fastapi/_compat/shared.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14360",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14791",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14791",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14791",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14605",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14605",
+   "resolved": false,
+   "file": "fastapi/temp_pydantic_v1_params.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14297",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14297",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14297",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14297",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14297",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_14583",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13537",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_11194",
+   "resolved": false,
+   "file": "fastapi/params.py",
+   "gold_file": false,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec1",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15589",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15588",
+   "resolved": false,
+   "file": "fastapi/sse.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "resolved": false,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "resolved": false,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "resolved": false,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "resolved": false,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "requests_7315",
+   "resolved": false,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/_compat.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/_compat.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/_compat.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/_compat.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/_compat.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14609",
+   "resolved": false,
+   "file": "fastapi/_compat/__init__.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/pt/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/pt/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/pt/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/pt/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14485",
+   "resolved": false,
+   "file": "fastapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14306",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14306",
+   "resolved": false,
+   "file": "fastapi/exceptions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14459",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14459",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14459",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14459",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14448",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14448",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14448",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14448",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13207",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13207",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_9555",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14360",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14419",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14419",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14419",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14419",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14246",
+   "resolved": false,
+   "file": "fastapi/_compat/shared.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "httpx_3672",
+   "resolved": false,
+   "file": "src/httpx/_parsers.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "./fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "./fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "./fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "./fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "./fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec2",
+   "task": "fastapi_14371",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15661",
+   "resolved": false,
+   "file": "scripts/add_latest_release_date.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15589",
+   "resolved": false,
+   "file": "fastapi/openapi/utils.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15280",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14986",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14986",
+   "resolved": false,
+   "file": "fastapi/openapi/docs.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "same_region"
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7315",
+   "resolved": true,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7315",
+   "resolved": true,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7315",
+   "resolved": true,
+   "file": "src/requests/adapters.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7309",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7309",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "requests_7309",
+   "resolved": false,
+   "file": "src/requests/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14873",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14873",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14873",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14873",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14258",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14479",
+   "resolved": false,
+   "file": "fastapi/dependencies/utils.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/_compat.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/_compat.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_12942",
+   "resolved": false,
+   "file": "fastapi/_compat.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14349",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14349",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14349",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14512",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14512",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/de/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14487",
+   "resolved": false,
+   "file": "docs/es/docs/tutorial/handling-errors.md",
+   "gold_file": false,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14458",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14458",
+   "resolved": false,
+   "file": "fastapi/dependencies/models.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14455",
+   "resolved": false,
+   "file": "fastapi/security/oauth2.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14430",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14430",
+   "resolved": false,
+   "file": "fastapi/param_functions.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "space",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14361",
+   "resolved": false,
+   "file": "fastapi/_compat/v2.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "escape",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14262",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14246",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14246",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14246",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14246",
+   "resolved": false,
+   "file": "fastapi/_compat/v1.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_13713",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "httpx_3672",
+   "resolved": false,
+   "file": "src/httpx/_parsers.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "httpx_3672",
+   "resolved": false,
+   "file": "src/httpx/_parsers.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "httpx_3672",
+   "resolved": false,
+   "file": "src/httpx/_parsers.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/applications.py",
+   "gold_file": true,
+   "read": false,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_15800",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14605",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14605",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_14605",
+   "resolved": false,
+   "file": "fastapi/routing.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": "similar",
+   "later": "no_later_ok"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_13786",
+   "resolved": false,
+   "file": "fastapi/security/http.py",
+   "gold_file": true,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_11194",
+   "resolved": false,
+   "file": "fastapi/params.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": "similar",
+   "later": "other_region"
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_11194",
+   "resolved": false,
+   "file": "fastapi/params.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  },
+  {
+   "run": "v2rec3",
+   "task": "fastapi_11194",
+   "resolved": false,
+   "file": "fastapi/params.py",
+   "gold_file": false,
+   "read": true,
+   "strategy": null,
+   "later": null
+  }
+ ]
+}

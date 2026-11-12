@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or these run records, please cite the paper."
+title: "Where a 4B Coding Agent Fails: A Fidelity-Checked Anatomy of Gemma 4 E4B on Real Repository Issues"
+authors:
+  - family-names: Raghav
+    given-names: Ujjwal
+  - family-names: Sharma
+    given-names: Atharv
+date-released: 2026-11-13
+license: Apache-2.0
+repository-code: "https://github.com/raghavujjwal/e4b-agent-anatomy"

@@ -1,0 +1,97 @@
+# PLAN_E4B_SFT: gate sheet for the E4B adapter plan
+
+Copied from Appendix B of `E4B_Accuracy_Plan_2026-11-04` (D:\data). Commit this file before building any v2 data or training anything. Do not edit a threshold after a result exists; if a threshold was wrong, add a dated note below the table and say so.
+
+*Written on 2026-11-04, before any v2 data or training existed. Copy it into `docs/PLAN_E4B_SFT.md` and commit it before running anything.*
+
+| ID | When | Measure | Threshold | If it fails |
+|---|---|---|---|---|
+| D1 | S2.7 | Prefix stability of rendered samples | 100% | Fix the builder |
+| D2 | S2.7 | Every kept edit replays with strategy `exact` and reproduces the teacher's result | 100% of kept samples | Drop the sample, fix the filter |
+| D3 | S2.7 | Tool results match the harness envelope and caps | 100% | Fix the builder |
+| D4 | S2.7 | Evaluation-pool repository names or `/workspace/<repo-dir>` in any sample | 0 | Remove and rebuild |
+| D5 | S2.7 | Median / maximum sample length | at most 7,000 / 12,000 tokens | Tighten F8 |
+| D6 | S2.6 | Distinct issues surviving F1 to F10 | at least 800 | Relax F5 to F7 one at a time and re-audit; if still below 800, change the data plan |
+| G1 | S4 | Adapter key audit; size | 0 bad keys; under 3 GiB | Fix the save code |
+| G2 | S4 | vLLM loads the adapter on the W4A16 checkpoint; 10 requests | no errors | Fix serving flags or the adapter config |
+| G3 | S4 | Step-type agreement against base, every tool except `edit_file` | within 10 points; `no_call` within 5 points; request errors at most 2% | No agent run. Fix the mix or take an earlier checkpoint |
+| G4 | S4 | After a failed edit: repeat-the-same-call rate; re-read rate | repeat at most 12% (base); re-read at least base | No agent run. Add recovery turns (S7b) |
+| G5 | S4 | Generations with exactly one well-formed tool call; length-limit hits | at least 98%; at most 2% | Check T0 parsing on the real server; fall back to T1 |
+| G6 | S4 | Validation loss on held-out repositories | below the step-0 value; chosen checkpoint within 5% of the best | Take another checkpoint |
+| A1 | S5 | No collapse, dev66, 3 seeds, against the control run in the same session | empty-patch rate at most control + 5 points; mean calls within plus or minus 30%; edit failure rate below control; loops (4 or more identical failing calls) in at most 10% of runs | Stop. One repair attempt, then close the adapter route |
+| A2 | S5 | Gain, dev66 (3 seeds) and tune pool (2 seeds) | dev66 mean at least control + 4 tasks with the lower end of the 90% paired bootstrap interval above 0; tune pool at least control + 2 | Two more seeds; then one data round; then stop |
+| A3 | S5 | Unseen pools (95 tasks, 3 seeds), aggregate counts only | at least control + 2 tasks | Treat as dev66 overfitting; retrain without dev66 own-run turns |
+| C1 | S6 | Canary loads and finishes within the 12-hour limit | yes | Investigate U1 and U2 before any accuracy work |
+| C2 | S6 | Canary score | at least 0.03 means no regression. Treat 0.08 or more (5 or more tasks) as promising and confirm on a second day | Do not read a single score as proof |
+| K1 | S7 | Round 2 beats round 1 under A2 | yes | Stop; write up |
+| K2 | any | Colab units remaining | at least 40 kept in reserve | Stop training; keep the reserve for final canaries |
+| F1 | final | Choice of the E4B final | by the unseen aggregate and the canaries, never by the best single public score | |
+| F2 | final | The other final | the 31B bundle | |
+
+## Amendments
+
+### 2026-11-04 (A1): fidelity audit, written before any v2 data or training exists
+
+No threshold above was changed. S0.2 (reading the scorer's own code and capturing the requests it sends; see `docs/MEASUREMENTS.md`, "Scorer fidelity audit") found five facts that change how the gates are run, and two gates were added.
+
+1. **Template.** The scorer serves the competition model's original `chat_template.jinja` (E4B: sha256 `33204f1a...3373`), not the July canonical one. All rendering for data, training and tests uses that file (`train/served.py`).
+2. **Thinking.** In the wheelhouse snapshot (adk-submission 0.2.13, published 2026-10-12) `thinking_budget: 0` becomes `enable_thinking: false`, a positive budget becomes `true` plus `thinking_token_budget`, and no config at all becomes the organizer default (budget 4096). The README says the same. The local runner assumed the config is ignored. Whether the hidden scorer runs that snapshot is **not verified** (organizer question 1). The thinking mode is therefore a pre-registered A/B, not an assumption (rule M1 below).
+3. **Thought replay (U3).** With 0.2.13 the assistant history carries both `reasoning_content` and `reasoning`, so vLLM renders earlier thoughts for tool-call turns after the last user message. A no-thought format (T0) is unaffected.
+4. **Prompts.** The scorer's first user message contains the budget, environment rules, instructions and workspace tree; its tool block uses the full docstring descriptions; its system message ends with ADK's identity sentence. The local runner and the `edit_v1` data had none of these. Every number measured on the old local harness is **pre-fidelity** and is not comparable with numbers from the corrected harness.
+5. **Tool results.** The real error messages, envelopes and the fourth edit-matching tier differ from the local copy (list in `docs/MEASUREMENTS.md`).
+
+Added gates (same rule: no edits after a result exists):
+
+| ID | When | Measure | Threshold | If it fails |
+|---|---|---|---|---|
+| D0 | S2.7 | Fixture fidelity: system message, tool block and first user message of every training sample are byte-identical to the scorer capture for the shipping submission (task fields substituted); the one-pass render of the fixture conversation matches the served prompt of its last turn token for token | 100% | Fix the builder; no training |
+| G0 | S0.3 | Local harness fidelity: on the scripted scenarios (`fidelity/`), local request bodies equal the scorer-path bodies and local tool results equal the real tool results (time fields excluded) | 100% of scenarios | Fix the harness. Until it passes, no comparison counts |
+| M1 | S5 | Thinking mode for the shipped bundle: with the final adapter, run `thinking_budget: 0` and `thinking_budget: 4096` on dev66, 3 seeds each, same session | choose the mode with the higher dev66 mean; tie goes to fewer completion tokens. The unchosen mode must not fall below control - 2 tasks (robustness) | Train the mixed-mode variant (half the samples with `<|think|>`) |
+
+Rule R1: A1/A2 compare against a **control rerun on the corrected harness** (same session, same seeds), never against pre-fidelity numbers.
+
+### 2026-11-06 (S4): definitions of G3 to G5 and a correction to G4, written before any adapter has produced an output
+
+No adapter has generated anything yet. The only numbers behind this note are the base model's own, from the six old traces (base1-3, v2rec1-3, pre-fidelity harness): they say how often the base model does things, not how the scorer's harness behaves. The gates run in `train/s4_gates.py` (tests: `tests/test_s4_gates.py`); the check files are built by `train/build_replay_data.py` from the corrected-harness control traces `ctl_v2rec1` and `ctl_v2rec2` (notebook 03).
+
+1. **G3**, thresholds unchanged. Prefixes: turns of the base model's own corrected-harness runs, at most 50 per recorded tool (`check.jsonl`), 2 samples each. Every dev66 task counts as unseen for the first adapter (D4 keeps the evaluation-pool repositories out of the S2 samples). Once an adapter has trained on own-run turns, rebuild both check files with `--g3-tasks holdout --g4-tasks holdout`. Prefixes of up to 24,000 tokens are used (prompt plus the recorded completion), although the S2 samples stop at 11,574: the scorer's contexts reach that length, and a failure that shows only on the long prefixes is a finding too. Sampling is the shipped arm's (temperature 1.0, top_p 0.95, top_k 64, 8,192 tokens). The base model re-samples the same prefixes in the same server and the adapter is judged against that re-sample, not against the recorded run. `train/step_check.py` is still the G3 code, unchanged except for an optional `top_k`. It skips a tool that has fewer than 10 check prefixes, so a small check file would pass without comparing anything; `s4_gates.py` therefore adds a floor: with fewer than 100 generations, or fewer than 3 gated tools (any tool but `edit_file`) with at least 10 prefixes, G3 reports INSUFFICIENT.
+2. **G4 correction.** The table's "repeat at most 12% (base)" took its 12% from the `edit_v1` analysis (`docs/MEASUREMENTS.md`): 135 identical consecutive repeats in 1,077 edit calls. That is the share of *all* edit calls that repeat the call before. It is not the share after a *failed* edit. After a failed `edit_file` the six old traces show **repeat 29.9%** (task-clustered standard error 3.0 points) and **re-read 17.0%** (2.3), over 324 prefixes from 54 tasks (base arm 34.9% / 10.6%, v2rec arm 23.0% / 25.9%). A literal 12% would fail the base model itself. The gate is therefore relative to the base model's rates on the same prefixes in the same run: **repeat at most 8 points above the base's, re-read at most 8 points below it**. Eight points is about two standard errors of the difference between two samplings of the same model at this size. The gate catches a collapse like `edit_v1` (89% identical repeats) and nothing finer; the loop criterion of A1 is the real test. A *repeat* is the same tool with the same arguments (for `edit_file` the same `filepath` and `old_string`: an anchor that was not found is not found with another replacement). A *re-read* is any `read_file`. The prefixes are the turns whose prompt ends in the result of a failed `edit_file` or `write_file` (up to 150, 3 samples each); with fewer than 40 the gate reports INSUFFICIENT. This corrects a number that was copied into the sheet from a sentence about all edit calls. It was found by measuring the base model, before any adapter output existed; it is not a relaxation made to fit a result.
+3. **G5**, thresholds unchanged. *Well-formed* = exactly one `<|tool_call>`, closed, a declared tool, arguments that parse in the template's syntax, every required parameter present, no undeclared one, the declared types (the table in `s4_gates.py` is tested against the declarations the harness sends). *Length hit* = `finish_reason` is `length` at 8,192 tokens. The denominator is every generation of G3 and G4; under 300 the gate reports INSUFFICIENT. On the base model's recorded generations 2,519 of 2,529 (99.6%) are well formed; the other 10 are 8 argument spellings the template never writes (a space after a colon or comma, unquoted strings, `None`) and 2 turns with several calls. All 8,363 calls in the 1,606 S2 samples are well formed by the same parser. Reported, not gated: the share of generations that open a thought channel, and the mean completion tokens, each next to the base's.
+4. **Verdicts.** PASS, FAIL, INSUFFICIENT (too little data) and INVALID (more than 2% request errors in either model). Only PASS passes. When one gate yields several, INVALID outranks FAIL and FAIL outranks INSUFFICIENT: a comparison that had enough data and came out against the adapter is not hidden by a shortage elsewhere. Exit code 0 = every gate passed, 1 = a failure or too little data, 2 = INVALID.
+5. **What this does not do.** These are offline checks of single steps on recorded prefixes. They cannot see a loop that starts after several steps, and they cannot see a gain. A1 and A2 test behaviour and benefit; no result of G3 to G5 is evidence for A2.
+
+### 2026-11-06 (S4, second note): the figures in points 2 and 3 above describe 70% of the turns; no definition or threshold changes
+
+Found on the first trace of the corrected harness (the one-task smoke test of notebook 03): it holds two `conversation` events. The agent's loop writes one per run, and a model that ends on text before `submit_patch` is nudged and starts a second run with its own token chain. `train/build_replay_data.py` read only the last event of an episode. In the six old traces 145 of 396 episodes have several runs, and the builder saw 3,446 of their 4,952 turns: the early runs, where the searching and most of the edits are, were missing. The builder now reads every run (`chains_of`; tests in `tests/test_build_replay_data.py`, which fail on the old code). No adapter had produced an output when this was found. Recomputed from the same six traces with the same 12,000-token limit, the figures that points 2 and 3 quote are:
+- After a failed `edit_file`/`write_file`: **413 prefixes from 54 tasks** (was 324 from 54); **repeat 29.3%** (task-clustered standard error 2.7) and **re-read 17.7%** (2.0), against 29.9% and 17.0% before. Base arm 216 prefixes, 37.0% / 10.2% (was 34.9% / 10.6%); v2rec arm 197 prefixes, 20.8% / 25.9% (was 23.0% / 25.9%).
+- G5 on the base model's recorded generations: **3,619 of 3,633 well formed (99.6%)** (was 2,519 of 2,529); the 14 misses are 12 argument spellings the template never writes and 2 turns with several calls.
+- The text-only turns that end a run (127; there was 1 before) are not tool decisions and stay out of the check files, as before.
+The conclusion of point 2 stands: after a failed edit the base repeats about 30% of the time, so a literal 12% would fail the base itself, and the gate stays relative to the base on the same prefixes (8 points each way). The figures of points 2 and 3 describe only the last run of each episode; use the ones in this note.
+
+### 2026-11-07 (S4, third note): the S4 result as run; a builder fix; a format probe defined after the result
+
+**Result.** Notebook 08, vLLM 0.32.0, `e4b_sft_v2` at step 191 (rank 64, scale 1.0), server started with the base model and the adapter. Check files built by the code of commit c15b433 from the corrected-harness control runs `ctl_v2rec1` + `ctl_v2rec2` (dev66, 2 seeds): 201 G3 prefixes from 63 tasks, 150 G4 prefixes from 35 tasks; 402 + 450 generations per model. The base column is the base model re-sampled in the same server.
+
+| Gate | Base | e4b_sft_v2 | Verdict |
+|---|---|---|---|
+| G2 | | 10 of 10 requests returned a tool call; the first-token log-probabilities differ from the base's | PASS |
+| G3 | `read_file` agreement 70.0% | 30.0% | **FAIL** (limit: within 10 points). No other gated tool or check was reported as failing; the per-tool numbers are in `summary.json` (Drive, `results/s4/s4_e4b_sft_v2`) |
+| G4 | repeat 20.0% (+-3.1), re-read 16.0% (+-2.3) | repeat 8.4% (+-1.6), re-read 24.9% (+-2.8) | PASS |
+| G5 | well-formed 94.2%, length hits 0.0% | well-formed 99.1%, length hits 0.0% | PASS |
+| reported | thought channel in 93.9%, mean 519 tokens | thought channel in 0.0%, mean 137 tokens | |
+
+Exit code 1. **What the table prescribes for a failed G3: "No agent run. Fix the mix or take an earlier checkpoint."** Nothing in this note changes a threshold or a definition. G3 stays FAIL in the record, whatever is learned later.
+
+**A builder fix, found in the control traces before the result was known, committed after it.** (1) `edit_status` read the first status response in the next turn's suffix. When something earlier in the history was re-rendered, the suffix also holds older responses and the first one belongs to another call: 6 of 504 edit turns were misread (3 failures as successes, 3 successes as failures). It now takes the response that belongs to the call (the n-th from the end for a generation with n calls). None of the 150 G4 prefixes used in S4 is affected: each ends in the error response of its failed edit (checked: 150 of 150). (2) A third status, `rejected`: 56 of the 504 answered edit calls (11.1%) never ran, because ADK refused them for a missing mandatory parameter: the model wrote a string in a form the template's parser does not read (`key="..."` in 33, Python triple quotes in 9, JSON-style quotes in 7, other 7). They touch 20 of 132 episodes on 17 tasks; none of those 20 was resolved (the other 112: 14 resolved, 12.5%); 4 episodes hold 38 of the 56. They were counted as "unknown" and left out of every check file. `build_replay_data.py` now writes their prefixes to `check_rejected.jsonl` (55 prefixes from 17 tasks within the 24,000-token limit). Tests: `tests/test_build_replay_data.py` (three of the four new ones fail on the old code; the fourth guards against fixing it by always taking the last block). The check files S4 used were built before this fix.
+
+**A format probe, report only, defined AFTER the S4 result (G5: 94.2% against 99.1%) was known.** It is therefore exploratory: it cannot count as a gate, and it is no evidence for A2. Prefixes: `check_rejected.jsonl`. Three samples per prefix, the sampling of the shipped arm. Statistic: the share of generations that are exactly one well-formed call (the G5 parser), with the reasons for the rest, for the base and for each adapter. No threshold.
+
+**Diagnostics for the G3 failure, also defined after it and also not gates.** 46 of the 50 `read_file` check prefixes carry the base model's thoughts in their history, and an adapter that never writes a thought will not see any in its own histories. Re-running the G3 prefixes with those thoughts removed tells whether the failure belongs to the test's history format or to the adapter's choices. Rule, fixed now: a result of this run does not change the verdict above. If it shows an artefact, the consequence is a new dated note and a new G3 definition for the next adapter, not a pass for this one.
+
+**Next.** Read the per-generation files from Drive (what the adapter did where the base reads; whether the shift is spread over all prefixes or sits in the compaction, nudge or thought-laden ones), then choose between the table's remedies (the checkpoints at steps 100 and 150, a different mix) and the exploratory runs above.
+
+### 2026-11-07 (S4, fourth note): what the per-generation files show; a second part of G4 for every later candidate
+
+The numbers are in `docs/MEASUREMENTS.md` ("S4: `e4b_sft_v2` against the base model"). Short version: where the base reads a file the adapter edits (49% against 14%), and after a failed edit with no applied edit visible in the prompt it submits in 22% of generations (base 6%; very likely an empty patch, though a compaction can hide an earlier edit), runs the tests in 18% (base 0%) and tries another edit in 18% (base 64%). G4 passed because it counts only repeat and re-read; it was blind to giving up. The verdict **G4 = PASS stands as recorded**; so does G3 = FAIL. The adapter's training data contains no failed edit, which is what this looks like. This is a reading of offline step choices, not a measurement of resolved tasks.
+
+**G4b, for every later candidate (any adapter, checkpoint or scale), defined now, before any candidate has produced an output, but chosen after seeing the numbers of `e4b_sft_v2` (so it is not blind with respect to that adapter).** On the G4 prefixes where no applied edit is visible in the prompt: (i) the share of generations whose first call is `submit_patch` at most the base's + 5 points; (ii) the share whose first call is a re-read or another (not identical) edit at least the base's - 10 points. This run: base submit 6%, recover 56%; `e4b_sft_v2` submit 22%, recover 36%, so it would fail both. Same sampling and the same INSUFFICIENT rule as G4 (fewer than 40 such prefixes). G3 and G4 stay as defined.

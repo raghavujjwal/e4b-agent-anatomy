@@ -1,0 +1,95 @@
+{
+ "edit_calls": 204,
+ "outcomes": {
+  "ok": 88,
+  "old_string not found": 74,
+  "ambiguous": 22,
+  "odd argument keys: new_string=\"        for err in self._err": 4,
+  "other: FileEditError old_string must be non-empty": 3,
+  "odd argument keys: fastapi/dependencies/utils.py<|\"|>,new_s": 2,
+  "odd argument keys: by_alias=True,\n            exclude_unset": 2,
+  "odd argument keys: ensure that the leading slashes are pres": 1,
+  "odd argument keys: ] else 1\n                return (_netrc[": 1,
+  "odd argument keys: (params.Path, temp_pydantic_v1_params.Pa": 1,
+  "odd argument keys: ',old_string,',reason": 1,
+  "odd argument keys: old_string_context": 1,
+  "odd argument keys: ]))) if self._uses_scopes else ()\\n     ": 1,
+  "odd argument keys: new_string=\"    if isinstance(depends, p": 1,
+  "odd argument keys: (\\n        \\\"A parameter-less dependency": 1,
+  "odd argument keys: \\n    )": 1
+ },
+ "failure_rate_%": 56.9,
+ "failure_by_old_string_feature": {
+  "triple_quote": {
+   "calls_with": 7,
+   "fail_%_with": 100.0,
+   "fail_%_without": 55.3
+  },
+  "backslash": {
+   "calls_with": 42,
+   "fail_%_with": 97.6,
+   "fail_%_without": 46.3
+  },
+  "multiline": {
+   "calls_with": 82,
+   "fail_%_with": 45.1,
+   "fail_%_without": 64.8
+  },
+  "long(>400)": {
+   "calls_with": 8,
+   "fail_%_with": 87.5,
+   "fail_%_without": 55.6
+  },
+  "short(<40)": {
+   "calls_with": 50,
+   "fail_%_with": 60.0,
+   "fail_%_without": 55.8
+  }
+ },
+ "why_old_string_not_found": {
+  "far from anything in the file (<0.7)": 24,
+  "file not read in this conversation": 18,
+  "escape sequences copied (backslash-n, backslash-quote, ...)": 16,
+  "partial (0.7-0.9)": 10,
+  "near miss (similarity >= 0.9)": 3,
+  "old_string IS in the file as shown (changed by an earlier edit, or window/uniqueness issue)": 3
+ },
+ "identical_consecutive_repeats": 12,
+ "repeats_that_failed": 11,
+ "tasks_by_failed_edits": {
+  "0": {
+   "tasks": 32,
+   "resolved": 5
+  },
+  "1": {
+   "tasks": 11,
+   "resolved": 2
+  },
+  "2": {
+   "tasks": 6,
+   "resolved": 0
+  },
+  "3": {
+   "tasks": 2,
+   "resolved": 0
+  },
+  "4+": {
+   "tasks": 15,
+   "resolved": 0
+  }
+ },
+ "scorer_task_killers": {},
+ "tasks_with_killer": 0,
+ "empty_patch_tasks": 3,
+ "empty_patch_breakdown": {
+  "no edit attempted": 0,
+  "edit attempted, none applied": 2,
+  "some edit applied but patch empty": 1,
+  "skill called": 0,
+  "submit_patch called": 3,
+  "median calls": 11
+ },
+ "empty_last_call_names": {
+  "submit_patch": 3
+ }
+}

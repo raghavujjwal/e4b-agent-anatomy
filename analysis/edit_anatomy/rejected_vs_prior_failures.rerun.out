@@ -1,0 +1,14 @@
+edit_file generations with a known status: 501 (Counter({'error': 247, 'ok': 199, 'rejected': 55}))
+
+== by the number of earlier FAILED (error) edit responses visible in the prompt
+earlier failed     n   applied     error  rejected
+             0   254     58.3%     22.0%     19.7%
+             1    66     28.8%     66.7%      4.5%
+             2    49     12.2%     85.7%      2.0%
+            3+   132     19.7%     79.5%      0.8%
+
+== by earlier REJECTED edit responses visible
+          none   426 applied 42.5%  error 52.8%  rejected 4.7%
+            1+    75 applied 24.0%  error 29.3%  rejected 46.7%
+
+of the 55 rejected calls: preceded by >=1 failed edit 5 (9%), by >=1 rejected 35, by neither 17; tasks 17

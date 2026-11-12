@@ -1,0 +1,48 @@
+69 generations the offline rule calls malformed; real status per feature set:
+  kwarg=                                         rejected  22 | ran: ok  0 error  0
+  triple" + key:"                                rejected   8 | ran: ok  0 error  2
+  (none of the above)                            rejected   5 | ran: ok  1 error  2
+  key: "                                         rejected   4 | ran: ok  0 error  3
+  kwarg= + odd-<|"|>                             rejected   7 | ran: ok  0 error  0
+  odd-<|"|>                                      rejected   3 | ran: ok  0 error  1
+  triple" + key: "                               rejected   1 | ran: ok  0 error  2
+  kwarg= + triple" + key:"                       rejected   1 | ran: ok  0 error  0
+  key:<newline>                                  rejected   0 | ran: ok  1 error  0
+  kwarg= + triple"                               rejected   1 | ran: ok  0 error  0
+  key:bare-literal                               rejected   0 | ran: ok  1 error  0
+  kwarg= + key: "                                rejected   1 | ran: ok  0 error  0
+  key:"                                          rejected   0 | ran: ok  0 error  1
+  triple"                                        rejected   1 | ran: ok  0 error  0
+  triple" + odd-<|"|>                            rejected   1 | ran: ok  0 error  0
+
+the ones the real framework RAN:
+  real=ok     args do not parse  key:<newline>                  filepath:<|"|>fastapi/routing.py<|"|>,new_string:
+                    "Response not awaited. There's a high chance that the "
+              
+  real=error  args do not parse  odd-<|"|>                      filepath:<|"|>fastapi/applications.py<|"|>,new_string:<|"|>        router: Annotated[routing.APIRouter, Doc("The `APIRouter` to include.")],
+  real=error  args do not parse  (none of the above)            Doc("The `APIRouter` to include.")],
+        *,\n        prefix:<|"|>Annotated[str<|"|>,Doc("An optional path prefix for the router.")] = ""
+  real=error  args do not parse  key: "                         filepath:<|"|>fastapi/openapi/utils.py<|"|>,new_string: "                    process_response = jsonable_encoder(additional_response)",old_s
+  real=ok     args do not parse  key:bare-literal               allow_multiple:false,filepath:<|"|>fastapi/_compat/v1.py<|"|>,new_string:None,old_string:<|"|>from pydantic.v1.types import SecretBytes as S
+  real=error  multi/none         (none of the above)            allow_multiple:false,filepath:<|"|>fastapi/params.py<|"|>,new_string:<|"|>        else:
+            kwargs["regex"] = pattern or regex
+     
+  real=ok     args do not parse  (none of the above)            filepath:<|"|>fastapi/dependencies/utils.py<|"|>,old_string:<|"|>        if sub_dependant.use_cache and sub_dependant.cache_key in dependenc
+  real=error  args do not parse  triple"+key: "                 filepath:<|"|>fastapi/routing.py<|"|>,new_string: """        """
+        if router is self:
+            raise FastAPIError("Circular referen
+  real=error  args do not parse  key: "                         filepath:<|"|>fastapi/_compat/shared.py<|"|>,new_string: '', old_string: "            def is_typealiastype(annotation: Any) -> bool:\n      
+  real=error  args do not parse  triple"+key: "                 filepath:<|"|>fastapi/_compat/shared.py<|"|>,new_string: "", old_string: """            def is_typealiastype(annotation: Any) -> bool:
+     
+  real=error  args do not parse  triple"+key:"                  filepath:<|"|>fastapi/dependencies/utils.py<|"|>,new_string:"""
+    def get_sub_dependant(
+        self,
+        *args,
+        **kwargs
+   
+  real=error  args do not parse  key:"                          filepath:<|"|>docs/fa/docs/index.md<|"|>,new_string:"* <abbr title=\"Standards-based\">مبتنی بر استانداردها</abbr>**: مبتنی بر (و منطبق با) 
+  real=error  args do not parse  key: "                         filepath:<|"|>fastapi/dependencies/utils.py<|"|>,new_string: "",old_string:<|"|>        or (\
+            isinstance(field.field_info, (para
+  real=error  args do not parse  triple"+key:"                  filepath:<|"|>fastapi/dependencies/utils.py<|"|>,new_string:"""    final_field = create_model_field(
+        name="body",
+        type_=Body

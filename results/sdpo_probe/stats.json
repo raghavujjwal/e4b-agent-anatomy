@@ -1,0 +1,24 @@
+{
+ "found": {
+  "notfound": 106,
+  "repeat_fail": 76,
+  "ok_edit": 284,
+  "first_fail": 187
+ },
+ "kept": {
+  "notfound": 76,
+  "first_fail": 130,
+  "repeat_fail": 76,
+  "ok_edit": 100
+ },
+ "runs": [
+  "base1",
+  "base2",
+  "base3",
+  "v2rec1",
+  "v2rec2",
+  "v2rec3"
+ ],
+ "tokens": 3150711,
+ "note": "notfound restricted to similarity >= 0.9 after the build (30 demoted to first_fail)"
+}

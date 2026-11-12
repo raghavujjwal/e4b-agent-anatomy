@@ -1,0 +1,161 @@
+{
+ "report": {
+  "edit_calls": 170,
+  "outcomes": {
+   "ok": 89,
+   "old_string not found": 64,
+   "ambiguous": 12,
+   "odd argument keys: \\n            \\\"type\\\",}\\n    ]\",\n      ": 1,
+   "odd argument keys: str) else type_,\nold_string": 1,
+   "odd argument keys: 'model', {}).get('scopes', [])\n        r": 1,
+   "odd argument keys: 'scopes', []) # Assuming scopes are avai": 1,
+   "odd argument keys: Any], None] = None,\\n        **extra,Exa": 1
+  },
+  "failure_rate_%": 47.6,
+  "failure_by_old_string_feature": {
+   "triple_quote": {
+    "calls_with": 9,
+    "fail_%_with": 66.7,
+    "fail_%_without": 46.6
+   },
+   "backslash": {
+    "calls_with": 29,
+    "fail_%_with": 100.0,
+    "fail_%_without": 36.9
+   },
+   "multiline": {
+    "calls_with": 107,
+    "fail_%_with": 46.7,
+    "fail_%_without": 49.2
+   },
+   "long(>400)": {
+    "calls_with": 9,
+    "fail_%_with": 55.6,
+    "fail_%_without": 47.2
+   },
+   "short(<40)": {
+    "calls_with": 24,
+    "fail_%_with": 50.0,
+    "fail_%_without": 47.3
+   }
+  },
+  "why_old_string_not_found": {
+   "far from anything in the file (<0.7)": 17,
+   "partial (0.7-0.9)": 14,
+   "escape sequences copied (backslash-n, backslash-quote, ...)": 13,
+   "near miss (similarity >= 0.9)": 10,
+   "old_string IS in the file as shown (changed by an earlier edit, or window/uniqueness issue)": 7,
+   "file not read in this conversation": 3
+  },
+  "identical_consecutive_repeats": 17,
+  "repeats_that_failed": 17,
+  "tasks_by_failed_edits": {
+   "0": {
+    "tasks": 37,
+    "resolved": 8
+   },
+   "1": {
+    "tasks": 10,
+    "resolved": 0
+   },
+   "2": {
+    "tasks": 2,
+    "resolved": 0
+   },
+   "3": {
+    "tasks": 8,
+    "resolved": 0
+   },
+   "4+": {
+    "tasks": 9,
+    "resolved": 1
+   }
+  },
+  "scorer_task_killers": {
+   "('undeclared tool', '<|\"|>grep -rn \"S3\" tests/test_adapters.py<|\"|>}')": 1
+  },
+  "tasks_with_killer": 1,
+  "empty_patch_tasks": 4,
+  "empty_patch_breakdown": {
+   "no edit attempted": 0,
+   "edit attempted, none applied": 4,
+   "some edit applied but patch empty": 0,
+   "skill called": 0,
+   "submit_patch called": 4,
+   "median calls": 12
+  },
+  "empty_last_call_names": {
+   "submit_patch": 4
+  }
+ },
+ "empty": [
+  {
+   "run": "v3h1",
+   "task": "fastapi_14258",
+   "calls": 12,
+   "edits_attempted": 3,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "read_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v3h1",
+   "task": "fastapi_14479",
+   "calls": 16,
+   "edits_attempted": 4,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "run_command",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v3h1",
+   "task": "fastapi_14455",
+   "calls": 9,
+   "edits_attempted": 6,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  },
+  {
+   "run": "v3h1",
+   "task": "fastapi_14371",
+   "calls": 9,
+   "edits_attempted": 5,
+   "edits_ok": 0,
+   "skill_calls": 0,
+   "submit_called": true,
+   "last3": [
+    "edit_file",
+    "edit_file",
+    "submit_patch"
+   ],
+   "stop": "submitted"
+  }
+ ],
+ "kill": [
+  {
+   "run": "v3h1",
+   "task": "requests_7315",
+   "kind": "undeclared tool",
+   "name": "<|\"|>grep -rn \"S3\" tests/test_adapters.py<|\"|>}"
+  }
+ ]
+}

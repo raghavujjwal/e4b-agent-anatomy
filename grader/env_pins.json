@@ -1,0 +1,15 @@
+{
+  "_about": "Per-repository package pins applied on top of the declared dependencies. Every entry needs evidence and a status. These deviate from the public setup.py, which installs the highest wheel of each name.",
+  "isort": {
+    "pins": ["setuptools<81"],
+    "evidence": "mined isort tasks: gold fails at start-up with 'No module named pkg_resources' (isort's example plugins load through pkg_resources, which setuptools 81 and later no longer ships).",
+    "status": "mined tasks only; not part of the competition dataset",
+    "added": "2026-10-30"
+  },
+  "rich": {
+    "pins": ["pygments==2.20.0"],
+    "evidence": "rich_4070 gold: with pygments 2.21.0, 6 of 32 tests in test_syntax.py fail (ANSI colour output differs); with 2.20.0 all 32 pass. The dataset wheelhouse ships both 2.20.0 and 2.21.0. Seven rich tasks fail under 2.21.0.",
+    "status": "inferred, not confirmed: the task authors presumably validated gold in the real scorer, so it likely uses 2.20.0 for rich. Ask the organizers.",
+    "added": "2026-10-28"
+  }
+}

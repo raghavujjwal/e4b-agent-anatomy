@@ -1,0 +1,16 @@
+# Core: harness, grader, miner, analyses and tests (CPU)
+pyyaml>=6.0
+numpy>=1.26
+pytest>=8.0
+
+# Training and probes (GPU; notebooks 04-10). Install when needed:
+# torch>=2.4
+# transformers>=4.56
+# peft>=0.13
+# safetensors>=0.4
+# pandas>=2.2
+# pyarrow>=16
+
+# Serving (notebooks 03, 05, 08): vllm (we used 0.32.0)
+# Reference harness for the fidelity scripts (mine/capture_scorer_requests.py, mine/diff_scorer_port.py):
+#   swegemma 0.2.11, adk-submission 0.2.13, adk-eval-core 0.1.0 (benchmark wheelhouse), google-adk 1.36.1, litellm

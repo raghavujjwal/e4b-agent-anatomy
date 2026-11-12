@@ -1,0 +1,10 @@
+# thinking_budget 4096 matches the only configuration that has scored above the leaderboard
+# noise floor (0.18 against a ~±4 point measured spread; a byte-identical archive scored 0.10
+# then 0.06). An n=12 external result favours thinking off, and the token arithmetic argues the
+# same way, so this is the first paired A/B to run once the local harness exists (QUEUE Q-006).
+temperature: 0.2
+top_p: 0.95
+max_output_tokens: 8192
+thinking_config:
+  thinking_budget: 4096
+  include_thoughts: true
